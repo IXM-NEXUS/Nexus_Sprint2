@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ASC Quote Email</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>ASC Quote Email to Sales OPS</name>
+    <style>freeForm</style>
+    <subject>Request to send ASC quote against  Case no.: {!Case.CaseNumber}</subject>
+    <textOnly>Dear Team,
+
+
+Please send the ASC quote to the below customer
+
+Details as below
+
+End Customer: -
+Installed By: -
+Total number of devices: -
+Total Number of Server: -
+Model: -
+Additional Module if any: -
+Customization If any: -
+IXMWEB Version: -
+IXMWEB ASC Expired On: -
+Machine Key:-
+ASC offer should be sent to:
+
+Contact Person Name
+
+Contact Person Email
+
+
+
+
+Please send it to the below email. Let me know if any concerns or queries you have.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

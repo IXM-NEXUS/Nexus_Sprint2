@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>custom_category__c</fullName>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Please Select</fullName>
+                <default>false</default>
+                <label>Please Select</label>
+            </value>
+            <value>
+                <fullName>Control4 Driver Issue</fullName>
+                <default>false</default>
+                <label>Control4 Driver Issue</label>
+            </value>
+            <value>
+                <fullName>Control4 Driver Query</fullName>
+                <default>false</default>
+                <label>Control4 Driver Query</label>
+            </value>
+            <value>
+                <fullName>Control4 Driver Request</fullName>
+                <default>false</default>
+                <label>Control4 Driver Request</label>
+            </value>
+            <value>
+                <fullName>Control4 Issues</fullName>
+                <default>false</default>
+                <label>Control4 Issues</label>
+            </value>
+            <value>
+                <fullName>Feature Support Query</fullName>
+                <default>false</default>
+                <label>Feature Support Query</label>
+            </value>
+            <value>
+                <fullName>Firmware Query</fullName>
+                <default>false</default>
+                <label>Firmware Query</label>
+            </value>
+            <value>
+                <fullName>Firmware Troubleshooting</fullName>
+                <default>false</default>
+                <label>Firmware Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Firmware Upgrade</fullName>
+                <default>false</default>
+                <label>Firmware Upgrade</label>
+            </value>
+            <value>
+                <fullName>Hardware Issue</fullName>
+                <default>false</default>
+                <label>Hardware Issue</label>
+            </value>
+            <value>
+                <fullName>MERGE Sensor Issue</fullName>
+                <default>false</default>
+                <label>MERGE Sensor Issue</label>
+            </value>
+            <value>
+                <fullName>IXM WEB/Firmware Request</fullName>
+                <default>false</default>
+                <label>IXM WEB/Firmware Request</label>
+            </value>
+            <value>
+                <fullName>IXM WEB &amp; Firmware Troubleshooting</fullName>
+                <default>false</default>
+                <label>IXM WEB &amp; Firmware Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>IXM WEB &amp; Firmware Upgrade</fullName>
+                <default>false</default>
+                <label>IXM WEB &amp; Firmware Upgrade</label>
+            </value>
+            <value>
+                <fullName>IXM WEB Query</fullName>
+                <default>false</default>
+                <label>IXM WEB Query</label>
+            </value>
+            <value>
+                <fullName>IXM WEB Troubleshooting</fullName>
+                <default>false</default>
+                <label>IXM WEB Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>IXM WEB Upgrade</fullName>
+                <default>false</default>
+                <label>IXM WEB Upgrade</label>
+            </value>
+            <value>
+                <fullName>IXM Convert Query</fullName>
+                <default>false</default>
+                <label>IXM Convert Query</label>
+            </value>
+            <value>
+                <fullName>License Request</fullName>
+                <default>false</default>
+                <label>License Request</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>SDK Issue</fullName>
+                <default>false</default>
+                <label>SDK Issue</label>
+            </value>
+            <value>
+                <fullName>SDK Query</fullName>
+                <default>false</default>
+                <label>SDK Query</label>
+            </value>
+            <value>
+                <fullName>SDK Upgrade</fullName>
+                <default>false</default>
+                <label>SDK Upgrade</label>
+            </value>
+            <value>
+                <fullName>SDK2 Issue</fullName>
+                <default>false</default>
+                <label>SDK2 Issue</label>
+            </value>
+            <value>
+                <fullName>SDK2 Query</fullName>
+                <default>false</default>
+                <label>SDK2 Query</label>
+            </value>
+            <value>
+                <fullName>SDK2 Upgrade</fullName>
+                <default>false</default>
+                <label>SDK2 Upgrade</label>
+            </value>
+            <value>
+                <fullName>Third Party Software/Tool Issue</fullName>
+                <default>false</default>
+                <label>Third Party Software/Tool Issue</label>
+            </value>
+            <value>
+                <fullName>Training Request</fullName>
+                <default>false</default>
+                <label>Training Request</label>
+            </value>
+            <value>
+                <fullName>Wiring Connection Query</fullName>
+                <default>false</default>
+                <label>Wiring Connection Query</label>
+            </value>
+            <value>
+                <fullName>Secure Relay Query</fullName>
+                <default>false</default>
+                <label>Secure Relay Query</label>
+            </value>
+            <value>
+                <fullName>Secure Relay Issue</fullName>
+                <default>false</default>
+                <label>Secure Relay Issue</label>
+            </value>
+            <value>
+                <fullName>Query from Ringcenral</fullName>
+                <default>false</default>
+                <label>Query from Ringcenral</label>
+            </value>
+            <value>
+                <fullName>Presale Call</fullName>
+                <default>false</default>
+                <label>Presale Call</label>
+            </value>
+            <value>
+                <fullName>Savant Query</fullName>
+                <default>false</default>
+                <label>Savant Query</label>
+            </value>
+            <value>
+                <fullName>Savant Issue</fullName>
+                <default>false</default>
+                <label>Savant Issue</label>
+            </value>
+            <value>
+                <fullName>Secugen USB Sensor Query</fullName>
+                <default>false</default>
+                <label>Secugen USB Sensor Query</label>
+            </value>
+            <value>
+                <fullName>Secugen USB Sensor Issue</fullName>
+                <default>false</default>
+                <label>Secugen USB Sensor Issue</label>
+            </value>
+            <value>
+                <fullName>Lumudigm USB Sensor Query</fullName>
+                <default>false</default>
+                <label>Lumudigm USB Sensor Query</label>
+            </value>
+            <value>
+                <fullName>Lumudigm USB Sensor Issue</fullName>
+                <default>false</default>
+                <label>Lumudigm USB Sensor Issue</label>
+            </value>
+            <value>
+                <fullName>Warranty Policy</fullName>
+                <default>false</default>
+                <label>Warranty Policy</label>
+            </value>
+            <value>
+                <fullName>Enrollment Issue</fullName>
+                <default>false</default>
+                <label>Enrollment Issue</label>
+            </value>
+            <value>
+                <fullName>Report Query</fullName>
+                <default>false</default>
+                <label>Report Query</label>
+            </value>
+            <value>
+                <fullName>Report Issue</fullName>
+                <default>false</default>
+                <label>Report Issue</label>
+            </value>
+            <value>
+                <fullName>Portal Access request</fullName>
+                <default>false</default>
+                <label>Portal Access request</label>
+            </value>
+            <value>
+                <fullName>Documentation Query</fullName>
+                <default>false</default>
+                <label>Documentation Query</label>
+            </value>
+            <value>
+                <fullName>Customization Query</fullName>
+                <default>false</default>
+                <label>Customization Query</label>
+            </value>
+            <value>
+                <fullName>Customization Troubleshooting</fullName>
+                <default>false</default>
+                <label>Customization Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Customized IXM WEB Upgrade</fullName>
+                <default>false</default>
+                <label>Customized IXM WEB Upgrade</label>
+            </value>
+            <value>
+                <fullName>Customized Firmware Upgrade</fullName>
+                <default>false</default>
+                <label>Customized Firmware Upgrade</label>
+            </value>
+            <value>
+                <fullName>Customization Feature Support</fullName>
+                <default>false</default>
+                <label>Customization Feature Support</label>
+            </value>
+            <value>
+                <fullName>Customization License Request</fullName>
+                <default>false</default>
+                <label>Customization License Request</label>
+            </value>
+            <value>
+                <fullName>Credance Tab Issue</fullName>
+                <default>false</default>
+                <label>Credance Tab Issue</label>
+            </value>
+            <value>
+                <fullName>RMA Status Enquiry</fullName>
+                <default>false</default>
+                <label>RMA Status Enquiry</label>
+            </value>
+            <value>
+                <fullName>IXM WEB Key replacement</fullName>
+                <default>false</default>
+                <label>IXM WEB Key replacement</label>
+            </value>
+            <value>
+                <fullName>TransGuard - Feature Support Query</fullName>
+                <default>false</default>
+                <label>TransGuard - Feature Support Query</label>
+            </value>
+            <value>
+                <fullName>TransGuard - IXM WEB Troubleshooting</fullName>
+                <default>false</default>
+                <label>TransGuard - IXM WEB Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>TransGuard - IXM WEB Query</fullName>
+                <default>false</default>
+                <label>TransGuard - IXM WEB Query</label>
+            </value>
+            <value>
+                <fullName>TransGuard - Firmware Troubleshooting</fullName>
+                <default>false</default>
+                <label>TransGuard - Firmware Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>TransGuard - Firmware Query</fullName>
+                <default>false</default>
+                <label>TransGuard - Firmware Query</label>
+            </value>
+            <value>
+                <fullName>TransGuard - IXM WEB &amp; Firmware Troubleshooting</fullName>
+                <default>false</default>
+                <label>TransGuard - IXM WEB &amp; Firmware Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>TransGuard - Upgrade</fullName>
+                <default>false</default>
+                <label>TransGuard - Upgrade</label>
+            </value>
+            <value>
+                <fullName>TransGuard - Reporting</fullName>
+                <default>false</default>
+                <label>TransGuard - Reporting</label>
+            </value>
+            <value>
+                <fullName>IXM TIME v1 Troubleshooting</fullName>
+                <default>false</default>
+                <label>IXM TIME v1 Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>IXM TIME v1 Query</fullName>
+                <default>false</default>
+                <label>IXM TIME v1 Query</label>
+            </value>
+            <value>
+                <fullName>Third Party Integration Query</fullName>
+                <default>false</default>
+                <label>Third Party Integration Query</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

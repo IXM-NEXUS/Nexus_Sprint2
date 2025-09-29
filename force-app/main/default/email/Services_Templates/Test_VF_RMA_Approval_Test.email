@@ -1,0 +1,103 @@
+<messaging:emailTemplate subject="Need RMA Approval for issue raised by for Case #" recipientType="Contact" relatedToType="Case">
+
+<messaging:htmlEmailBody >
+  <!--  Dear Shiraz and Dilip,<br/>
+    <c:RMAAprrovalMT csId="{!relatedTo.Id}" CaseNumber="{!relatedTo.CaseNumber}"
+         CreatedDate="{!relatedTo.createddate}" ContactName="{!relatedTo.Contact.Name}" 
+         AccountName="{!relatedTo.Account.Name}" TroubleShootingSteps="{!relatedTo.Troubleshooting_Steps__c}"
+         
+         ThreadId="{!relatedTo.ThreadId__c}" /><br/><br/> -->
+         <html>
+              <body>
+           
+            <p> Dear Shiraz and Dilip, </p>
+
+<p>Case # {!relatedTo.CaseNumber} generated on {!relatedTo.CreatedDate} needs to be processed for RMA.</p>
+
+   <!--  Contact Name: {{!relatedTo.Contact.Name}
+    Company Name: {!relatedTo.Account.Name}
+    Device Serial Number(s): {!RMA_Device_Detail__c.Device_Serial_Number__c}
+    Number of Device(s): {!RMA_Device_Detail__c.of_Devices__c}
+    Device Family: {!RMA_Device_Detail__c.Device_Family__c}
+    Device Type: {!RMA_Device_Detail__c.Device_Type__c}
+    Warranty Status: {!RMA_Device_Detail__c.Warranty_Status__c}
+    Problem Statement: {!Case.Hardware_Device_Category__c}
+    Troubleshooting Steps: {!Case.Troubleshooting_Steps__c} -->
+
+Please refer to the email chain below for more details and provide your approval at the earliest. 
+         
+         
+         
+         
+         <ul>
+<li><strong>Contact Name: </strong>{{!relatedTo.Contact.Name}</li>
+<li><strong>Company Name:</strong>{!relatedTo.Account.Name}</li>
+<li><strong>Device Serial Number:</strong> </li>
+<li><strong>Device Family</strong> </li>
+<li><strong>Device Type:</strong> </li>
+<li><strong>Warranty Status:</strong> </li>
+<li><strong>Problem Statement:</strong> {!relatedTo.Hardware_Device_Category__c}</li>
+<li><strong>Troubleshooting Steps: </strong>{!relatedTo.Troubleshooting_Steps__c}</li>
+
+<li><strong>RMA Completed for </strong><strong>  with </strong><strong>:- </strong></li>
+ <li><strong>RMA Completed for </strong><strong>  with </strong><strong>:- </strong></li>
+<li><strong>RMA Completed for all device families:- </strong></li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td width="70">
+<p><strong>MYCRO</strong></p>
+</td>
+<td width="70">
+<p><strong>MERGE</strong></p>
+</td>
+<td width="70">
+<p><strong>SENSE</strong></p>
+</td>
+<td width="70">
+<p><strong>TOUCH</strong></p>
+</td>
+<td width="70">
+<p><strong>SENSE2</strong></p>
+</td>
+<td width="70">
+<p><strong>TOUCH2</strong></p>
+</td>
+<td width="70">
+<p><strong>TITAN</strong></p>
+</td>
+</tr>
+<tr>
+<td width="70">
+<p><strong></strong></p>
+</td>
+<td width="70">
+<p><strong></strong></p>
+</td>
+<td width="70">
+<p><strong></strong></p>
+</td>
+<td width="70">
+<p><strong></strong></p>
+</td>
+<td width="70">
+<p><strong></strong></p>
+</td>
+<td width="70">
+<p><strong></strong></p>
+</td>
+<td width="70">
+<p><strong></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Please refer to the email chain below for more details and provide your approval at the earliest.<br />Please refer to the email chain below for more details and provide your approval at the earliest.<br /><br /><br /></p>
+         
+         
+         </body>
+         </html>
+    </messaging:htmlEmailBody>
+
+</messaging:emailTemplate>

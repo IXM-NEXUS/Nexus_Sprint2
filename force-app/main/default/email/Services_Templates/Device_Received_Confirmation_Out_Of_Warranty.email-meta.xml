@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Confirmation that out of warranty device received, sharing first inspection report and informing that repair cost will be provided upon thorough investigation..</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Device Received Confirmation (Out Of Warranty)</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+RMA Number - {!Case.custom_rma_number__c}
+
+
+This is to confirm that we have received your RMA shipment. Please find the details of the initial inspection attached.
+
+
+
+Kindly note that your device is out of warranty as mentioned earlier, after doing thorough investigation of device we will share the total repair cost with you. Device Repair work will commence only upon receiving payment for overall repair work.
+
+
+Let us know if there are any discrepancies in the shipment received within 24 hours. The device(s) will now undergo a detailed evaluation. You will be notified via email for any update(s) to the RMA status.
+
+
+
+In the meanwhile, we request you to provide us the address to which the device will be shipped after repair.
+
+
+
+For any other queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).
+
+
+
+Thank you for choosing Invixium!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

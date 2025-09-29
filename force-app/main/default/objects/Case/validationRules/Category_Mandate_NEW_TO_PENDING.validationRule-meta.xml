@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Mandate_NEW_TO_PENDING</fullName>
+    <active>false</active>
+    <description>The case will not be saved as a category field is mandatory.</description>
+    <errorConditionFormula>AND(ISPICKVAL( Status, &quot;Pending&quot; ), 
+(ISBLANK(TEXT(custom_category__c))))</errorConditionFormula>
+    <errorMessage>The case category assignment is missing. Please Select a Category.</errorMessage>
+</ValidationRule>

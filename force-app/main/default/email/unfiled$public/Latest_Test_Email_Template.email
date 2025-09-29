@@ -1,0 +1,5 @@
+Hi {!Contact.Name},
+
+New label is "{!Case.Latest_Label__c}".
+
+Thanks,

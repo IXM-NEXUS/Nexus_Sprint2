@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cause_Code__c</fullName>
+    <description>Case Cause Code</description>
+    <inlineHelpText>TSE will require to assign a Cause Code to the case based on the troubleshooting and email chain followed before marking a case Resolved.</inlineHelpText>
+    <label>Cause Code</label>
+    <length>130000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

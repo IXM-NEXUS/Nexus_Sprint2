@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Escalation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Case Escalation template</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} -- SLA Alert</subject>
+    <textOnly>Dear {!Case.OwnerFirstName},
+
+
+Case# {!Case.CaseNumber} opened first time on {!Case.CreatedDate} and assigned to {!Case.OwnerFirstName}.
+
+Here are the SLA Details:
+
+Case Number: {!Case.CaseNumber}
+Subject: {!Case.Subject}
+SLA Start Date: {!Case.opened_at__c}
+SLA Target Date:{!Case.SLA_Violated_Date_Time__c}
+Case Current Status: Open
+Case Target Status: Resolved
+
+Case is opened since: {!Case.Case_Current_Open_Age__c}
+
+Kindly look into this on high priority.
+
+
+Best Regards,
+
+Invixium Technical Services Team
+
+
+Contact US: +1 844 INVIXIUM (468 4948) Email: support@invixium.com
+
+Work Hours: 12:00AM to 5:00PM (Eastern Time) Skype: invixium_support
+
+
+REVISED HOURS ON OCT 02: 09:00 AM TO 05:00 PM EST
+
+
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

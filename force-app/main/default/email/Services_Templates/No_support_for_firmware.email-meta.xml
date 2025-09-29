@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Standard template for which can tell customer that &quot;Currently requested feature is not having any support in IXMWEB/Firmware/SDK/SDK2&quot;.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Default_Letterhead</letterhead>
+    <name>No support for firmware</name>
+    <style>freeForm</style>
+    <subject>Requested feature not supported in Current Firmware Version</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+Thank you for your interest in Invixium biometric solutions. Unfortunately, the feature requested is currently not available as part of &lt;IXM WEB/Firmware/SDK/SDK 2&gt;.
+
+
+Please let us know if you would like Invixium to contact you if this feature becomes available in the future.
+
+
+For any other queries, contact Invixium Tech Support.
+
+
+Best Regards,
+
+Invixium Support Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALL_RMA_Data</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>custom_rma_number__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Total_Number_of_devices_RMA__c</columns>
+    <columns>custom_rma_status__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Case_Open_Age_Total__c</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>custom_rma_number__c</field>
+        <operation>startsWith</operation>
+        <value>R</value>
+    </filters>
+    <filters>
+        <field>custom_rma_status__c</field>
+        <operation>equals</operation>
+        <value>Device Received,Under Repaired,Under Burning,Replacement,RMA On Hold,Refurbish</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Open,Pending,Resolved,Closed</value>
+    </filters>
+    <label>ALL_RMA_Data</label>
+</ListView>

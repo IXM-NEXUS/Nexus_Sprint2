@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Agent feedback template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Feedback Template</name>
+    <style>none</style>
+    <subject>Re: {!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+How did I do?
+
+
+Click a rating for the Agent that helped you, and give us your feedback.
+
+
+
+This is Case #{!Case.CaseNumber}
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

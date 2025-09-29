@@ -1,0 +1,36 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" style="" size="2">Dear
+{!Contact.FirstName},<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" style="" size="2">RMA
+Number -&nbsp;<b>{!Case.custom_rma_number__c}</b><o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">This
+is to confirm that we have received your RMA shipment. Please find the details
+of the initial inspection attached.<b><span style="color:red"><o:p></o:p></span></b></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Let
+us know if there are any discrepancies in the shipment received within 24 hours.
+The device(s) will now undergo a detailed evaluation. It will take up to 7
+business days to inspect, repair &amp; ship the device back to you. You will be
+notified via email for any update(s) to the RMA status.&nbsp;</font></span></p><p class="MsoNormal" style=""><span style="font-family: Arial, sans-serif; font-size: 10pt; background-color: rgb(255, 255, 255);"><br></span></p><p class="MsoNormal" style=""><b><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2"><o:p></o:p></font></span><span style="font-family: Arial, sans-serif; font-size: 10pt; background-color: rgb(255, 255, 255);">In the meanwhile, we
+request you to provide us the address to which the device will be shipped after
+repair.</span></b></p><p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2"><br></font></span></p><p class="MsoNormal" style=""><font size="2" face="Arial, sans-serif"><span lang="EN-US" style="line-height: 115%;">For any other
+queries, feel free to contact us at&nbsp;</span><span lang="EN-US"><a href="mailto:support@invixium.com"><span style="line-height: 115%;">support@invixium.com</span></a></span><span lang="EN-US" style="line-height: 115%;">&nbsp;</span><span lang="EN-GB" style="line-height: 115%;">or +1 844 INVIXIUM (468 4948).&nbsp;</span><span lang="EN-US" style="line-height: 115%;"><o:p></o:p></span></font></p><p class="MsoNormal" style=""><span lang="EN-GB" style="line-height: 115%;"><font size="2" face="Arial, sans-serif"><br></font></span></p><p class="MsoNormal" style=""><span lang="EN-CA" style=""><font size="2" face="Arial, sans-serif">
+
+<span lang="EN-CA" style="line-height: 115%;">Thank you for choosing Invixium!</span></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p><div style="font-size: 12pt; font-family: arial;"><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:
+Calibri;mso-ansi-language:EN-CA;mso-fareast-language:EN-CA;mso-bidi-language:
+AR-SA"><p class="MsoNormal" style="font-size: 16px; background-color: rgb(255, 255, 255); font-family: arial;"><br></p><p class="MsoNormal" style="font-size: 16px; background-color: rgb(255, 255, 255); font-family: arial;"><span style="color: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 10.6667px;">{!Case.Thread_Id}</span></p><p class="MsoNormal" style="font-size: 16px; background-color: rgb(255, 255, 255); font-family: arial;"><span style="font-size: 8pt; font-family: Arial, sans-serif; color: rgb(127, 127, 127);"><br></span></p><p class="MsoNormal" style="font-size: 16px; background-color: rgb(255, 255, 255); font-family: arial;"><br></p></span></div>]]></td>
+</tr>
+</table>

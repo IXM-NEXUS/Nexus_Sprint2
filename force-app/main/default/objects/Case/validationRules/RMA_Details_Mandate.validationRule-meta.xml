@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RMA_Details_Mandate</fullName>
+    <active>false</active>
+    <description>If RMA number has value, then value must be input in RMA Initiate Date, RMA Category, RMA by Business Category, Number of device(s) and RMA Device(s) sent fields.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(custom_rma_number__c)),
+OR(ISBLANK(TEXT(custom_rma_category__c)), ISBLANK(TEXT(custom_rma_devices_sent_to__c)), ISNULL(Total_Number_of_devices_RMA__c),
+ISBLANK(TEXT(RMA_by_Business_Category__c)),
+ISBLANK(custom_rma_initiate_date__c)))</errorConditionFormula>
+    <errorMessage>RMA Initiate Date, RMA Category, RMA by Business Category, Number of device(s) and RMA Device(s) sent fields cannot be blank.</errorMessage>
+</ValidationRule>

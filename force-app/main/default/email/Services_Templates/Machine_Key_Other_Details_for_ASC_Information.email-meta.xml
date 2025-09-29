@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Template can be used to get Machine Key, Contact Details, Device Details and Other information</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Machine Key &amp; Other Details for ASC Information</name>
+    <style>freeForm</style>
+    <subject>Re: {!Case.Subject}</subject>
+    <textOnly>Dear {!Case.Contact}
+
+
+Greetings! Thanks for showing your interest in the renewal of the Annual Support Contract for the IXM WEB Instance details we shared with you.
+
+Before moving forward, we need the following details from your end for a smooth transition:
+
+IXM Web Version
+
+Log in to IXM WEB
+To get this go to the admin menu that is available at the top-right corner.
+Click on Admin Menu
+Click About IXM WEB
+Here, IXM WEB Version will be displayed.
+
+Machine Key from IXM WEB
+
+Log in to IXM WEB
+To get this go to the admin menu that is available at the top-right corner.
+Click on Admin Menu
+Click About IXM WEB
+You will find a Machine Key over there, copy that machine key, and provide us in the text format (please do not provide these details in an image format).
+
+The total number of devices registered in the IXM WEB.
+Device Serial Numbers.
+
+
+Kindly rest assured once we receive these details we will promptly revert to you with a further course of action.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

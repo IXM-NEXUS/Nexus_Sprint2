@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RMA Approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>RMA Approval</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear Shiraz &amp; Dilip,
+
+Case # {!Case.CaseNumber} generated on {!Case.CreatedDate} needs to be processed for RMA.
+
+
+Contact Name: {!Contact.FirstName}  {!Contact.LastName}
+Company Name: {!Account.Name}
+Device Serial Number(s): {!RMA_Device_Detail__c.Device_Serial_Number__c}
+Number of Device(s): {!RMA_Device_Detail__c.of_Devices__c}
+Device Family: {!RMA_Device_Detail__c.Device_Family__c}
+Device Type: {!RMA_Device_Detail__c.Device_Type__c}
+Warranty Status: {!RMA_Device_Detail__c.Warranty_Status__c}
+Problem Statement: {!Case.Hardware_Device_Category__c}
+Troubleshooting Steps: {!Case.Troubleshooting_Steps__c}
+
+
+Please refer to the email chain below for more details and provide your approval at the earliest.
+
+{!Case.Thread_Token}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

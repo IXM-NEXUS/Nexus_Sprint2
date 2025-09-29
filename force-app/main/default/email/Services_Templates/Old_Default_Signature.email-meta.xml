@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Old Default Signature</name>
+    <style>formalLetter</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Greetings! Thanks for connecting with Invixium Technical Services!
+
+
+Appreciate your kind patience!
+{!Case.Thread_Id}
+Invixium Technical Services Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

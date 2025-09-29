@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Close the Ticket if Invixium does not receive the device within 30 days of issuing the RMA.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Close ticket if no update in 30 days</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+This email is with respect to RMA {!Case.custom_rma_number__c} issued on {!Case.custom_rma_initiate_date__c}.
+
+
+In accordance with the trailing email dated &lt;Date of RMA Issues email&gt; – it has been 30 days since issuing the RMA and we have still not received the device(s). We are thus marking the issue as resolved.
+
+
+Kindly contact Invixium Tech Support as soon as possible if the issue still exists.
+
+
+Best Regards,
+
+Invixium Support Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="font-size: 12pt;"><p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 12pt;"><span lang="EN-CA" style=""><font style="" face="Arial, sans-serif">Hello Shiraz,&nbsp; <br>
+<!--[endif]--><o:p></o:p></font></span></p>
+
+<font face="Arial, sans-serif" style=""><span lang="EN-CA" style="color: rgb(0, 0, 0);">Ticket#&nbsp;</span>{!Case.CaseNumber}&nbsp;generated on&nbsp;<font style="color: rgb(0, 0, 0);">{!Case.CreatedDate}</font><span style="color: rgb(0, 0, 0);">&nbsp;is overdue
+by 7 days and pending for customer's response.</span></font></div><div style="font-size: 12pt; color: rgb(0, 0, 0);"><span lang="EN-CA" style=""><font style="" face="Arial, sans-serif">
+<br>
+Please refer to the email chain below for more details.</font></span></div><div style="font-size: 12pt; color: rgb(0, 0, 0);"><font face="Arial, sans-serif"><br></font></div><div style="font-size: 12pt; color: rgb(0, 0, 0);"><br></div><div style="font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-CA" style="">
+
+<p class="MsoNormal" style=""><span style="color: rgb(255, 255, 255); font-family: Verdana, sans-serif; background-color: rgb(255, 255, 255);"><font size="1">{!Case.Thread_Id}</font></span></p><p class="MsoNormal" style="font-size: 12pt;"><br></p><p style="font-size: 12pt;"></p></span></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IXM_WEB_Issue__c</fullName>
+    <description>List of all IXM WEB Issues raised to Technical Services Team</description>
+    <inlineHelpText>List of all IXM WEB Issues raised to Technical Services Team</inlineHelpText>
+    <label>IXM WEB Issue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Installation Issue</fullName>
+                <default>false</default>
+                <label>Installation Issue</label>
+            </value>
+            <value>
+                <fullName>Database Configuration Issue</fullName>
+                <default>false</default>
+                <label>Database Configuration Issue</label>
+            </value>
+            <value>
+                <fullName>Group Sync Issue</fullName>
+                <default>false</default>
+                <label>Group Sync Issue</label>
+            </value>
+            <value>
+                <fullName>UI &amp; UX Issue</fullName>
+                <default>false</default>
+                <label>UI &amp; UX Issue</label>
+            </value>
+            <value>
+                <fullName>Transaction Log Issue</fullName>
+                <default>false</default>
+                <label>Transaction Log Issue</label>
+            </value>
+            <value>
+                <fullName>Video Surveillance Issue</fullName>
+                <default>false</default>
+                <label>Video Surveillance Issue</label>
+            </value>
+            <value>
+                <fullName>Device Discovery Issue</fullName>
+                <default>false</default>
+                <label>Device Discovery Issue</label>
+            </value>
+            <value>
+                <fullName>Template Transfer Issue</fullName>
+                <default>false</default>
+                <label>Template Transfer Issue</label>
+            </value>
+            <value>
+                <fullName>WEB Cloud Issue</fullName>
+                <default>false</default>
+                <label>WEB Cloud Issue</label>
+            </value>
+            <value>
+                <fullName>IXM WEB Upgradation Issue</fullName>
+                <default>false</default>
+                <label>IXM WEB Upgradation Issue</label>
+            </value>
+            <value>
+                <fullName>IXM LINK Issue</fullName>
+                <default>false</default>
+                <label>IXM LINK Issue</label>
+            </value>
+            <value>
+                <fullName>Machine Code Changes Issue</fullName>
+                <default>false</default>
+                <label>Machine Code Changes Issue</label>
+            </value>
+            <value>
+                <fullName>IXM Convert Issue</fullName>
+                <default>false</default>
+                <label>IXM Convert Issue</label>
+            </value>
+            <value>
+                <fullName>IXM WEB Service Issue</fullName>
+                <default>false</default>
+                <label>IXM WEB Service Issue</label>
+            </value>
+            <value>
+                <fullName>Smart Card Issue</fullName>
+                <default>false</default>
+                <label>Smart Card Issue</label>
+            </value>
+            <value>
+                <fullName>Bonjour Service Issue</fullName>
+                <default>false</default>
+                <label>Bonjour Service Issue</label>
+            </value>
+            <value>
+                <fullName>License Issue</fullName>
+                <default>false</default>
+                <label>License Issue</label>
+            </value>
+            <value>
+                <fullName>IXM Report Issue</fullName>
+                <default>false</default>
+                <label>IXM Report Issue</label>
+            </value>
+            <value>
+                <fullName>Translate Issue</fullName>
+                <default>false</default>
+                <label>Translate Issue</label>
+            </value>
+            <value>
+                <fullName>USB Sensor Issue</fullName>
+                <default>false</default>
+                <label>USB Sensor Issue</label>
+            </value>
+            <value>
+                <fullName>IXM WEB Performance Issue</fullName>
+                <default>false</default>
+                <label>IXM WEB Performance Issue</label>
+            </value>
+            <value>
+                <fullName>Active Directory Issue</fullName>
+                <default>false</default>
+                <label>Active Directory Issue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

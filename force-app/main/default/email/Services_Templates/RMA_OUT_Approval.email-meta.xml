@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template used for requesting to Ship out the RMA devices.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>RMA OUT Approval</name>
+    <style>freeForm</style>
+    <subject>Requesting for RMA ship out approval Against {!Case.custom_rma_number__c}</subject>
+    <textOnly>Hi Shiraz,
+
+Case {!Case.CaseNumber} generated on  {!Case.CreatedDate} needs to be processed for RMA return to the customer.
+
+	RMA Number: {!Case.custom_rma_number__c}
+	Contact Name: {!Contact.FirstName}  {!Contact.LastName}
+	Company Name: {!Account.Name}
+	Device Serial Number(s): {!RMA_Device_Detail__c.Device_Serial_Number__c}
+	Number of Device(s): {!RMA_Device_Detail__c.of_Devices__c}
+	Device Family: {!RMA_Device_Detail__c.Device_Family__c}
+	Device Type: {!RMA_Device_Detail__c.Device_Type__c}
+	Warranty Status: {!RMA_Device_Detail__c.Warranty_Status__c}
+	Original SO Number: 
+	RMA SO Number:
+	RMA Issued On: {!Case.custom_rma_initiate_date__c}
+	Device Received On: {!Case.custom_rma_device_received_date__c}
+	Problem Reported by Customer:  
+	Troubleshooting Engineer: 
+	Root Cause Analysis:
+	Nature of Issue:
+	Corrective Action:
+	Payment Received:
+	Cost of Repair:
+o	Material Cost – 
+o	Labor Cost – 
+o	Shipping cost –
+o	Received Purchase Order#: 
+
+Kindly provide your approval to ship out the RMA</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

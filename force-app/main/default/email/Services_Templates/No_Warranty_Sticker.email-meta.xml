@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Warranty sticker removed or tempered so we are considering this device as out of warranty.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Default_Letterhead</letterhead>
+    <name>No Warranty Sticker</name>
+    <style>freeForm</style>
+    <subject>RMA Update: Warranty Void</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+RMA Number - {!Case.custom_rma_number__c}
+
+
+We would like to bring it to your attention that the warranty sticker on the device(s) sent by you for RMA &lt;has/have&gt; been &lt;removed/tampered with&gt;. Unfortunately, &lt;this/these&gt; device(s) cannot be considered under RMA as per Invixium RMA policy.
+
+
+If you would still like the device(s) to be repaired, the following costs will be incurred:
+
+
+&lt;Enter break up of total cost incurred for repair&gt;
+
+
+Kindly get back to us as soon as possible on how would you like us to proceed.
+
+
+For any other queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).
+
+
+Thank you for choosing Invixium!
+
+
+Best Regards,
+
+
+
+Invixium Support Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

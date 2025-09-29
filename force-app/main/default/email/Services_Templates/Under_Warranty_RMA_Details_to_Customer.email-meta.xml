@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Under Warranty RMA Details to Customer where RMA Number is assigned and to send device(s) to Invixium Office at Canada</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Under Warranty RMA Details to Customer</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+This email is in reference to RMA Number - {!Case.custom_rma_number__c}. Please ship the device(s) to the following address for inspection and repair:
+
+Company: Invixium Access
+
+Address: 111 Gordon Baker Road, Suite #300, Toronto, Ontario M2H 3R1. Canada
+
+Contact Number: +1 844 468 4948
+
+Attn.: RMA Number: {!Case.custom_rma_number__c}
+
+Number of Device(s): {!Case.custom_number_of_devices__c}
+
+Device Serial Number: {!Case.custom_device_serial_no__c}
+
+Only the RMA Unit(s) and the respective IO cable(s) are required.
+
+The shipment should have a clear marking  &quot;TEMPORARY RETURN FOR WARRANTY REPAIR&quot;
+
+Furthermore, the RMA unit should be delivered duty paid (DDP) and any import charges are payable by the customer.
+
+&quot;We do appreciate your feedback on Invixium system failure. Even though we are accepting your request for RMA, please make a note that as per RMA Policy, we do have (No Fault Found) NFF charges $75 or equivalent + all applicable taxes +  return shipping irrespective of warranty status, where if devices are found perfectly fine after receiving at Invixium Repair Center. Furthermore, the customer will have to arrange to pick up unit(s) from Invixium Repair Center&quot;
+
+
+*In authorizing the RMA, we are relying on received feedback and working off the assumption that installation is done exactly as per our installation guidelines and that authorizing an RMA does not mean acceptance of fault with the unit – it is merely confirming the need for further testing in the factory test environment.
+
+NOTE: In lieu of Invixium RMA Policy, we do not provide Advance Replacement.
+
+
+For further queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

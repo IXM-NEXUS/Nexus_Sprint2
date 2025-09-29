@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Offline IXM WEB activation Key mail.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Offline Activation Key</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+Thank you for sending us the machine details. Your Activation Key for IXM WEB is:
+
+
+&lt;Activation Key&gt;
+
+
+Please go to LICENSE tile &gt;&gt; Activate IXM WEB app and enter the key given above to activate your copy of IXM WEB.
+
+
+Enjoy the Experience!
+
+
+For any queries, contact Invixium Tech Support.
+
+
+Best Regards,
+
+Invixium Technical ServicesTeam
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time)      Skype : invixium_support
+
+
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

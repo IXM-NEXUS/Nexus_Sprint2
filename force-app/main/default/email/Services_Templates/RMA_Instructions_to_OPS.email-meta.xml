@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RMA Instructions that TS team is sending to Operations/Production Department when device handed over for repair</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>RMA Instructions to OPS</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject} - RMA Number: {!Case.custom_rma_number__c}</subject>
+    <textOnly>Dear Operations Team,
+
+
+
+We are requesting for formal RMA Repair Process for {!Case.custom_rma_number__c}.
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+
+RMA Device Details:
+
+Device: {!Case.custom_device_family__c}  {!Case.custom_device_type__c}
+Company Name: {!Account.Name}
+Customer: {!Contact.FirstName}  {!Contact.LastName}
+Number of Devices: {!RMA_Device_Detail__c.of_Devices__c}
+Serial Number: {!RMA_Device_Detail__c.Device_Serial_Number__c}
+MAC Address: {!RMA_Device_Detail__c.MAC_Address__c}
+Complain: {!Case.Hardware_Device_Category__c}
+Device Received Date: {!Case.custom_rma_device_received_date__c}
+Warranty Status: {!RMA_Device_Detail__c.Warranty_Status__c}
+Firmware Version: {!Case.custom_firmware_version__c}
+Actual Ship Out Date of Device: {!Case.Device_Ship_Date__c}
+Targeted Repair Date: {!Case.Estimated_Repair_Date__c}
+Instructions from Engineering:  {!Case.Instruction_to_Operations__c}
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+Below is the list of accessories received with device(s):
+
+
+
+Items
+
+Quantity
+
+Notes
+
+Device
+
+
+Backplate
+
+
+
+Backplate Screw
+
+
+
+Metal Mounting Plate
+
+
+
+Metal Mounting Plate Screw
+
+
+
+Dolphins
+
+
+
+Mounting Screws
+
+
+
+Snubber Diode
+
+
+
+Torx
+
+
+
+Dummy Back Cover
+
+
+
+EGND Wire
+
+
+
+Device Box Accessories
+
+
+
+Device Box
+
+
+
+
+Device Condition:
+
+We will transfer the unit(s) to OPS as soon as you accept the request. Please make sure to get it done on or before targeted repair date.
+
+Best Regards,
+
+Invixium Technical Services Team
+
+Contact US: +1 844 INVIXIUM (468 4948) Email: support@invixium.com
+Work Hours: 12:00AM to 5:00PM (Eastern Time) Skype: invixium_support
+
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Set_Billing_Account</name>
+        <label>Set Billing Account</label>
+        <locationX>374</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.AccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>AccountId_From_Label</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Check_Engagement_Model</name>
+        <label>Check Engagement Model</label>
+        <locationX>363</locationX>
+        <locationY>355</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Enterprise_RFP</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Engagement_Model__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Enterprise RFP (Multi-SI)</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Billing_Account</targetReference>
+            </connector>
+            <label>Enterprise RFP (Multi-SI)</label>
+        </rules>
+    </decisions>
+    <description>Automatically sets the Billing Account on new Enterprise RFP Opportunities.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>AccountId_From_Label</name>
+        <dataType>String</dataType>
+        <expression>{!$Label.TBD}</expression>
+    </formulas>
+    <label>Set Billing Account for Enterprise RFP</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>287</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Check_Engagement_Model</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Color__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISPICKVAL(Priority,&quot;1&quot;),ISPICKVAL(Priority,&quot;2&quot;),ISPICKVAL(Priority,&quot;3&quot;)), IMAGE(&quot;/resource/GreenImage&quot;,&quot;sla&quot;,15,100),
+IF(OR(ISPICKVAL(Priority,&quot;4&quot;),ISPICKVAL(Priority,&quot;5&quot;),ISPICKVAL(Priority,&quot;6&quot;)),IMAGE(&quot;/resource/YellowImg&quot;,&quot;sla&quot;,15,100),
+IF(OR(ISPICKVAL(Priority,&quot;7&quot;),ISPICKVAL(Priority,&quot;8&quot;),ISPICKVAL(Priority,&quot;9&quot;),ISPICKVAL(Priority,&quot;10&quot;)),IMAGE(&quot;/resource/RedImage&quot;,&quot;sla&quot;,15,100),
+&apos;&apos;)))</formula>
+    <label>Priority Color</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

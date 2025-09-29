@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_delay_in_RMA__c</fullName>
+    <description>The reason that is causing a delay in RMA Completion</description>
+    <inlineHelpText>The reason that is causing a delay in RMA Completion</inlineHelpText>
+    <label>Reason for delay in RMA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account On Hold</fullName>
+                <default>false</default>
+                <label>Account On Hold</label>
+            </value>
+            <value>
+                <fullName>ECO/ECN Not Released</fullName>
+                <default>false</default>
+                <label>ECO/ECN Not Released</label>
+            </value>
+            <value>
+                <fullName>Engineering Instruction Pending</fullName>
+                <default>false</default>
+                <label>Engineering Instruction Pending</label>
+            </value>
+            <value>
+                <fullName>Ops is busy</fullName>
+                <default>false</default>
+                <label>Ops is busy</label>
+            </value>
+            <value>
+                <fullName>Part(s) Unavailable</fullName>
+                <default>false</default>
+                <label>Part(s) Unavailable</label>
+            </value>
+            <value>
+                <fullName>Payment Not Received</fullName>
+                <default>false</default>
+                <label>Payment Not Received</label>
+            </value>
+            <value>
+                <fullName>Payment On Hold</fullName>
+                <default>false</default>
+                <label>Payment On Hold</label>
+            </value>
+            <value>
+                <fullName>Ship Out Approval</fullName>
+                <default>false</default>
+                <label>Ship Out Approval</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

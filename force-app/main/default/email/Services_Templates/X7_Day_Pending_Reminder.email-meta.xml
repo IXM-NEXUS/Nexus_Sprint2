@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>7 day pending reminder</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>7 Day Pending Reminder</name>
+    <style>freeForm</style>
+    <subject>Ticket Pending for 7 Days</subject>
+    <textOnly>Hello Shiraz,
+
+Ticket# {!Case.CaseNumber} generated on {!Case.CreatedDate} is overdue by 7 days and pending for customer&apos;s response.
+
+Please refer to the email chain below for more details.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

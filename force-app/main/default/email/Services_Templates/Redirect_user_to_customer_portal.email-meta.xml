@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Redirect user to customer portal if they are looking for the document or feature description.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Redirect user to customer portal</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+Thank you for your request regarding Invixium product &lt;videos/manuals/pictures/anything similar&gt;. We would like to inform you that the Invixium Customer Portal accessible from our website consists of an extensive library of product images, detailed manuals and feature description documents available to all our customers.
+
+
+
+
+If you do not already have an account to the Customer Portal, please provide us with the following details and you shall receive your credentials via email within the next 48 hours.
+
+
+
+First Name:
+Last Name:
+Email:
+Company:
+Country:
+
+
+
+If your specific requirement is not available on the customer portal, please let us know and we will try to fulfill your request at the earliest.
+
+
+
+For any other queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).
+
+
+
+Thank you for choosing Invixium!
+
+
+Best Regards,
+
+Invixium Technical Services Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

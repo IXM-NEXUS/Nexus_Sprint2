@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Translate trial</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Default_Letterhead</letterhead>
+    <name>Translate trial</name>
+    <style>freeForm</style>
+    <subject>In response to translate module query</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+Thank you for your interest in the Translate module.
+
+
+
+The Translate module gives you the ability to translate the IXM WEB and IXM Device LCD text into more than 90 languages. Garner more flexibility with manual translation and localization of IXM WEB in your preferred language by signing up for this module.
+
+
+The key to begin your 30 day trial is given below:
+
+
+&lt;Enter License Key&gt;
+
+
+For any other queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).
+
+
+Thank you for choosing Invixium!
+
+
+Enjoy the experience!
+
+
+Best Regards,
+
+Invixium Support Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

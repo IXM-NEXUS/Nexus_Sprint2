@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alerts__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (OR(ISPICKVAL(Function__c,&quot;&quot;)), 
+IMAGE(&quot;/img/samples/flag_yellow.gif&quot; , &apos;Yellow&apos; ,12,12) &amp; &apos; Function is not selected. Please update the value.&apos; &amp; BR(), 
+NULL) 
+&amp; 
+IF (OR(MailingCountry=&quot;&quot;), 
+IMAGE(&quot;/img/samples/flag_yellow.gif&quot; , &apos;Yellow&apos; ,12,12) &amp; &apos; Country is not selected. Please update the value.&apos; &amp; BR(), 
+NULL) 
+&amp; 
+IF (OR(Email=&quot;&quot;), 
+IMAGE(&quot;/img/samples/flag_yellow.gif&quot; , &apos;Yellow&apos; ,12,12) &amp; &apos; Email is not selected. Please update the value.&apos; &amp; BR(), 
+NULL)
+&amp; 
+IF (OR(MobilePhone=&quot;&quot;), 
+IMAGE(&quot;/img/samples/flag_yellow.gif&quot; , &apos;Yellow&apos; ,12,12) &amp; &apos; Mobile is not added. Please update the value.&apos; &amp; BR(), 
+NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Alerts</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

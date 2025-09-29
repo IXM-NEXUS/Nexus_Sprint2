@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RMA_Initiate_India</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>custom_rma_number__c</columns>
+    <columns>NAME</columns>
+    <columns>custom_rma_initiate_date__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>custom_rma_status__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>custom_rma_device_received_date__c</columns>
+    <columns>Total_Number_of_devices_RMA__c</columns>
+    <columns>RMA_Conclusion__c</columns>
+    <columns>custom_rma_complete_date__c</columns>
+    <columns>Summary_of_Analysis__c</columns>
+    <columns>Troubleshooting_Steps__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>custom_rma_status__c</field>
+        <operation>equals</operation>
+        <value>Initiated,Device Received,Under Repaired,Under Burning,Shipping Back,Replacement,Cancel,RMA On Hold,Refurbish</value>
+    </filters>
+    <filters>
+        <field>custom_rma_devices_sent_to__c</field>
+        <operation>equals</operation>
+        <value>India</value>
+    </filters>
+    <label>RMA Tracking India</label>
+</ListView>

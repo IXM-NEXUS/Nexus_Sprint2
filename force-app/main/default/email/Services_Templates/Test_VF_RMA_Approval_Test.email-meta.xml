@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <available>true</available>
+    <description>Testing RMA Approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Test_VF_RMA_Approval_Test</name>
+    <style>none</style>
+    <subject>Need RMA Approval for issue raised by for Case #{!Case.CaseNumber}</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

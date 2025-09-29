@@ -1,0 +1,52 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" style="" size="2">Dear {!Contact.FirstName},<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Thank
+you for purchasing IXM Convert. Your license details are given below:<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"></p><ul style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><li><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">License
+Type: <b>&lt;Volume/Perpetual/Permanent&gt;</b></font></span></li><li><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Number
+of templates: <b>&lt;Enter only if applicable&gt;</b></font></span></li><li><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Period:
+<b>&lt;Enter only if applicable&gt;</b></font></span></li><li><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">License
+Key: <b>&lt;License Key&gt;</b></font></span></li></ul><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"></p>
+
+
+
+
+
+
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">To
+activate your IXM Convert license, follow these steps:<o:p></o:p></font></span></p><p class="MsoNormal" style=""></p><ul><li><font face="Arial, sans-serif" size="2">Open IXM WEB and login</font></li><li><font face="Arial, sans-serif" size="2">Go to <b>LICENSE</b> tile &gt;&gt; <b>Convert</b> App</font></li><li><font face="Arial, sans-serif" size="2">Enter the License Key given above and click <b>Activate</b></font></li></ul><p></p><p class="MsoNormal" style=""><span lang="EN-CA"><font face="Arial, sans-serif" size="2"></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2"><br></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">IXM Convert should be activated and
+ready to use.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Enjoy
+the Experience!<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" style=""><span lang="EN-CA" style=""><font size="2">For any queries, contact Invixium Tech
+Support.</font></span><span lang="EN-CA" style="font-size: 12pt;"><o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif">&nbsp;</font></span></p>
+
+<br><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:
+Calibri;mso-ansi-language:EN-CA;mso-fareast-language:EN-CA;mso-bidi-language:
+AR-SA"><p class="MsoNormal" style="font-size: 16px; background-color: rgb(255, 255, 255); font-family: arial;"><span style="color: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 10.6667px;">{!Case.Thread_Id}</span></p><p class="MsoNormal" style="font-size: 16px; background-color: rgb(255, 255, 255); font-family: arial;"><br></p></span></div>]]></td>
+</tr>
+</table>

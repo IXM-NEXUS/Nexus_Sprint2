@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RIL RMA Template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>RIL RMA Template</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName}
+
+Greetings and thank you for contacting the Invixium Technical Services team!
+
+
+We are happy to address your issues as soon as possible. Till now, we have been supporting you in good faith even for out of warranty repairs at no cost, however moving forward charges will be applied as per our standard warranty policy which means that you will be invoiced for any replacements to hardware components (i.e. fingerprint sensor, LCD display, device enclosures, etc.) or damage/RMA repairs.
+
+
+We have been informed through our ERP system, followed by our Finance department that the RIL account is on hold due to payment overdue. To address this with the concerned team at RIL, we are including Jayant Pathak – Manager of Credit &amp; Collections, Invixium.
+
+
+As a courtesy, we will continue the support via phone or email.
+
+
+
+We appreciate your business!
+
+
+
+
+
+Best Regards,
+
+Invixium Technical Services Team
+
+Contact US: +1 844 INVIXIUM (468 4948) Email: support@invixium.com
+Work Hours: 12:00AM to 5:00PM (Eastern Time) Skype: invixium_support
+
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

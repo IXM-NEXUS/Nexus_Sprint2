@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Link license key mail. (number of devices)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Link licence key mail</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+Thank you for purchasing IXM Link. Your license details are given below:
+
+
+Access Control Panel: &lt;ACP Name&gt;
+
+Number of devices: &lt;License purchased for how many devices&gt;
+
+License Key: &lt;License Key&gt;
+
+
+To activate your IXM Link license, follow these steps:
+
+
+Open IXM WEB and login
+Expand Left Navigation Panel
+Click License tab
+Select the required Access Control Panel manufacturer
+Enter the License Key given above and click Activate
+
+
+
+
+
+IXM Link should be activated and ready to use.
+
+
+Enjoy the Experience!
+
+
+For any queries, contact Invixium Technical Services Team.
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

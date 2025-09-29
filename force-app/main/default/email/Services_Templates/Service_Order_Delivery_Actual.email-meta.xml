@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Actual SO Delivery to the Client.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Service Order Delivery - Actual</name>
+    <style>freeForm</style>
+    <subject>Service Order- Actual Delivery Acknowledgement.</subject>
+    <textOnly>Dear Compras,
+
+Thank you for your business with Invixium!
+
+Reference to your PO Number: 14499
+
+SO#: SOAC003090
+Unique ID Number: 00054830
+
+
+Please make a note of the assigned Unique ID number that would allow you to activate associated software services at your convenience. You must keep this email info as a record for future reference and confirmation of IXM software/services delivery. These services may include IXM time, IXM Link, IXM Health, IXM Convert, ASC, or others as applicable per PO/SO number.
+
+The following services are included:
+
+1. ASC WEB 20 (January 28, 2024 to January 27, 2025) – 1 No.
+
+
+
+Please find below the activation details:
+
+Activation Type:
+
+Activation ID:
+
+Activation Key:
+
+
+
+
+Expiry Date:
+
+
+Reference Machine Key:
+
+
+
+
+
+Please find attached a screenshot to activate ASC in IXM Web.
+
+Once activated, let us know your convenient time to connect over remote/MS Teams to troubleshoot the issue.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

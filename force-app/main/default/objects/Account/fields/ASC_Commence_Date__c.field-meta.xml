@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASC_Commence_Date__c</fullName>
+    <description>Date from which ASC will be renewed</description>
+    <inlineHelpText>Date from which ASC will be renewed</inlineHelpText>
+    <label>ASC Commence Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Repair charges mail</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Repair charges mail</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+RMA Number - {!Case.custom_rma_number__c}
+
+
+Based on our detailed evaluation of the device(s), the total cost of inspection will be:
+
+&lt;Provide inspection cost&gt;
+
+
+Please find the breakup of the total repair charges below:
+
+&lt;Provide break up and cost&gt;
+
+
+We request you to fill out the attached credit card authorization form and send it back to us at the earliest. Please note that as per Invixium RMA Policy, if the payment is not received within 30 days then Invixium reserves the right to take possession of the unit(s) as abandoned.
+
+
+Best Regards,
+
+Invixium Technical Service Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

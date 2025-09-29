@@ -1,0 +1,35 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" style="" size="2">Dear {!Contact.FirstName},<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">The
+Activation ID provided by you is already in use on another system. Please go to
+the following link, fill in the required details, and click Submit:<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"></p><ul style=""><li style=""><font color="#0000ee" face="Arial, sans-serif" size="2"><u><a href="https://www.invixium.com/download-ixm-web/">https://www.invixium.com/download-ixm-web/</a></u></font></li></ul><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Please
+note that each Activation ID is uniquely linked to the IXM WEB instance provided that is activated upon filling the details. To get a new Activation ID, please use a different email
+address. <o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2" style="">You
+will then receive an email from Invixium Support. Follow the steps in the email
+to activate IXM WEB. <font face="arial" style="font-size: 12pt;"><o:p></o:p></font></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:
+Calibri;mso-ansi-language:EN-CA;mso-fareast-language:EN-CA;mso-bidi-language:
+AR-SA"><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span lang="EN-CA" style="font-size: 9pt; font-family: Verdana, sans-serif; color: rgb(31, 73, 125);">&nbsp;</span><span lang="EN-CA" style="font-family: Arial, sans-serif;"><o:p></o:p></span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><br></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span style="color: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 10.6667px;">{!Case.Thread_Id}</span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><br></p></span></div>]]></td>
+</tr>
+</table>

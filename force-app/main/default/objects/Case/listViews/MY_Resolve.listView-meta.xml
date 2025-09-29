@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MY_Resolve</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>custom_category__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Case_Age__c</columns>
+    <columns>custom_rma_number__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>labels__c</columns>
+    <columns>CASES.ESCALATION_STATE</columns>
+    <columns>test_labels_1__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Open,Pending,Resolved,Closed</value>
+    </filters>
+    <filters>
+        <field>resolved_at__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>5/16/2022 12:00 AM</value>
+    </filters>
+    <label>HMY Resolve</label>
+</ListView>

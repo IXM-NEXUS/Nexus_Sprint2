@@ -1,0 +1,57 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" style="" size="2">Dear {!Contact.FirstName},<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">In
+response to the trailing email we are initiating an RMA. RMA number - <b>{!Case.custom_rma_number__c}</b>. We request you to mention this RMA number in all future
+communications.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Kindly
+share the following details within 5 business days:</font></span></p><p class="MsoNormal" style=""></p><ul style=""><li><span style="text-indent: -18pt;"><font face="Arial, sans-serif" size="2"><span style="white-space:pre">	</span>Contact
+Name:</font></span></li><li><span style="text-indent: -18pt;"><font face="Arial, sans-serif" size="2"><span style="white-space:pre">	</span>Company
+Name:</font></span></li><li><font face="Arial, sans-serif" size="2"><span style="text-indent: -18pt;"><span style="white-space:pre">	</span>C</span><span lang="EN-CA" style="text-indent: -18pt;">ompany
+Address:</span></font></li><li><span lang="EN-CA" style="text-indent: -18pt;"><font face="Arial, sans-serif" size="2"><span style="white-space:pre">	</span>Phone
+Number:</font></span></li><li><span lang="EN-CA" style="text-indent: -18pt;"><font face="Arial, sans-serif" size="2"><span style="white-space:pre">	</span>Device(s)
+Serial Number(s):</font></span></li><li><span lang="EN-CA" style="text-indent: -18pt;"><font face="Arial, sans-serif" size="2"><span style="white-space:pre">	</span>No. of
+Boxes:</font></span></li><li><span lang="EN-CA" style="text-indent: -18pt;"><font face="Arial, sans-serif" size="2"><span style="white-space:pre">	</span>Each box
+dimensions:</font></span></li><li><span lang="EN-CA" style="text-indent: -18pt;"><font face="Arial, sans-serif" size="2"><span style="white-space:pre">	</span>Weight of
+each box:</font></span></li></ul><p style=""></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Please
+note that if the details are not shared within 5 business days, we will mark
+the ticket as resolved. It will take up to 7 business days to inspect, repair
+&amp; ship the device back to you. Please note that if we do not receive the
+device within 30 days of the initiation date, the RMA ticket will be marked as
+resolved. <o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Invixium
+will be responsible only for the shipping charges for the RMA. All other
+charges, if any, will be expensed to you. <o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">You
+will be notified via email for any update(s) to the RMA status.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Thank
+you for your patience.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Best
+Regards,<font style=""><o:p></o:p></font></font></span></p><p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2"><br></font></span></p><p class="MsoNormal" style="background-color: rgb(255, 255, 255);"><span lang="EN-US" style="color: rgb(255, 102, 0);"><font face="Arial, sans-serif" size="2">Invixium Technical Services Team<o:p></o:p></font></span></p><p class="MsoNormal" style="background-color: rgb(255, 255, 255);"><span lang="EN-US" style="color: rgb(31, 73, 125);"><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p><p class="MsoNormal" style="background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" size="1"><span lang="EN-US" style="color: rgb(31, 73, 125);">Contact US&nbsp; :&nbsp;</span><span lang="EN-CA" style="">+1 844 INVIXIUM (468 4948)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span lang="EN-CA" style="color: rgb(31, 73, 125);">Email :&nbsp;</span><span lang="EN-CA" style=""><a href="mailto:support@invixium.com">support@invixium.com</a></span></font><span style="font-family: Arial, sans-serif; font-size: x-small;">&nbsp;</span></p><p class="MsoNormal" style="background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif"><font size="1"><span lang="EN-CA" style="color: rgb(31, 73, 125);">Work Hours :&nbsp;</span><span lang="EN-CA" style="">12:00AM to 5:00PM (Eastern Time)&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span lang="EN-CA" style="color: rgb(31, 73, 125);">Skype :&nbsp;</span><span lang="EN-CA" style=""><a href="skype:invixium_support?call">invixium_support</a></span><span lang="EN-CA" style="color: rgb(31, 73, 125);">&nbsp;</span></font><span lang="EN-CA" style="font-size: small;"><o:p></o:p></span></font></p><p class="MsoNormal" style="background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style=""><font face="Arial, sans-serif" size="2"><span lang="EN-CA" style=""></span></font></p><p class="MsoNormal" style="background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" size="2"><br></font></p><div style=""><span style="color: rgb(127, 127, 127); background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" style="" size="1">This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</font></span></div><div style="font-size: 12pt; font-family: arial;"><span style="color: rgb(127, 127, 127); font-family: Arial, sans-serif; font-size: 8pt; background-color: rgb(255, 255, 255);"><br></span></div><div style="font-size: 12pt; font-family: arial;"><span style="color: rgb(127, 127, 127); font-family: Arial, sans-serif; font-size: 8pt; background-color: rgb(255, 255, 255);"><br></span></div><div style="font-size: 12pt; font-family: arial;"><span style="color: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 10.6667px; background-color: rgb(255, 255, 255);">{!Case.Thread_Id}</span></div>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>]]></td>
+</tr>
+</table>

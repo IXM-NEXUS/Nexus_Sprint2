@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Out of Warranty RMA Details to Customer where RMA Number is assigned and to send device(s) to Invixium Office at Canada</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Out of Warranty RMA Details to Customer</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+RMA Number: {!Case.custom_rma_number__c}
+
+
+Device Serial Number: {!Case.custom_device_serial_no__c}
+
+
+
+Number of Device: {!Case.custom_number_of_devices__c}
+
+
+Based on the serial number(s), we would like to inform you that the following device(s) &lt;is/are&gt; out of warranty. In accordance with the IXM Warranty Policy, all costs involved in repairing out of warranty devices will have to be borne by you.
+
+
+Please ship the device(s) to the following address for inspection and repair:
+
+
+Company: Invixium Access
+
+
+
+Address: 111 Gordon Baker Road, Suite #300, Toronto, Ontario M2H 3R1. Canada
+
+
+
+Contact Number: +1 844 468 4948
+
+
+
+Attn.: RMA number: {!Case.custom_rma_number__c}
+
+
+
+
+
+We request you to provide us with the shipping details, once the device(s) &lt;has/have&gt; been shipped. For further queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).
+
+
+
+&quot;We do appreciate your feedback on Invixium system failure. Even though we are accepting your request for RMA, please make a note that we do have (No Fault Found) NFF charges $75 + all applicable taxes, where if devices found perfectly fine after receiving at Invixium Repair Center. Furthermore, the customer will have to arrange to pick up unit(s) from Invixium Repair Center&quot;
+
+
+
+NOTE: In lieu of Invixium RMA Policy, we do not provide Advance Replacement.
+
+
+
+Best Regards,
+
+Invixium Technical Services Team
+
+Contact US: +1 844 INVIXIUM (468 4948) Email: support@invixium.com
+Work Hours: 12:00AM to 5:00PM (Eastern Time) Skype: invixium_support
+
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

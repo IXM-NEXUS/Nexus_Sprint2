@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>If customer request for advance replacement, then say we do not have advance replacement policy.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Advance Replacement</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+This email is with reference to your request for an advance replacement of Invixium devices. We would like to bring it to your attention that Invixium does not have an advance replacement policy.
+
+
+As an alternative you can send the concerned device(s) for RMA, which are usually repaired and shipped within 7 business days of receiving.
+
+
+For any other queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).
+
+
+Thank you for choosing Invixium!
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

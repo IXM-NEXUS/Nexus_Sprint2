@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASC_Renewal_Date__c</fullName>
+    <description>Date on which Annual Support Contract needs renewal</description>
+    <inlineHelpText>Date on which Annual Support Contract needs renewal</inlineHelpText>
+    <label>ASC Renewal Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

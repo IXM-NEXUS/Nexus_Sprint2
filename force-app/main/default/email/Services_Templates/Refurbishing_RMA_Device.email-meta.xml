@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template will be sent to customer to inform that Invixium will take device in possession if no payment received</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Refurbishing RMA Device</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+This email is in reference to RMA Number – {!Case.custom_rma_number__c}.
+
+
+Kindly note that your device(s) have been in our possession since {!Case.custom_rma_device_received_date__c}. We would like to be able to make the necessary adjustments at no charge to you, but unfortunately your device(s) have been deemed Out of Warranty based on our thorough analysis.
+
+
+If you would like us to repair the device(s) for you, there will be a charge of [AMOUNT FOR REPAIRS] plus all applicable taxes. We will guarantee the repair will be completed within 7 days, after which we will return the device(s) back to you (Note: additional shipping charges may apply).
+
+
+We strongly request that your payment be completed within the next 5 business days, so that we can proceed with the repair effort. If we do not receive your payment within this period, the device(s) will be discarded or remain in our possession. In addition, all of your pending cases and associated RMA’s will be marked as CLOSED.
+
+
+Your prompt action is greatly appreciated.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

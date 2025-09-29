@@ -1,0 +1,33 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" style="" size="2">Dear {!Contact.FirstName},<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">This
+email is with reference to your request for an advance replacement of Invixium
+devices. We would like to bring it to your attention that Invixium does not
+have an advance replacement policy.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">As
+an alternative you can send the concerned device(s) for RMA, which are usually
+repaired and shipped within 7 business days of receiving. <o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><font face="Arial, sans-serif" size="2"><span lang="EN-US" style="">For any other queries, feel free to
+contact us at </span><span lang="EN-CA"><a href="mailto:support@invixium.com"><span lang="EN-US" style="">support@invixium.com</span></a></span><span lang="EN-US" style=""> </span><span lang="EN-GB" style="">or +1 844 INVIXIUM (468 4948).</span><span lang="EN-US" style=""><o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span lang="EN-GB" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" style=""><font size="2">Thank
+you for choosing Invixium!</font><span style="font-size: 12pt;"><o:p></o:p></span></font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt;"><font face="Arial, sans-serif"><span lang="EN-GB" style="">&nbsp;</span></font></p><div style="font-family: arial;"><span lang="EN-CA" style="font-family: Verdana, sans-serif;"><font size="1">
+
+</font><p class="MsoNormal" style=""><span style="color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);"><font size="1">{!Case.Thread_Id}</font></span></p><p class="MsoNormal" style="font-size: 10pt;"><br></p></span></div>]]></td>
+</tr>
+</table>

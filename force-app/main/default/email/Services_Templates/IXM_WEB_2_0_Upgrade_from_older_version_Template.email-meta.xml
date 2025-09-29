@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email will be sent when WEBINAR is over and ASC is received to provide 1.7.0.0 and IXM WEB 2.0 link to download</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>IXM WEB 2.0 Upgrade from older version</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Thank you for completing the IXM WEB 2.0 webinar and we hope that you are as excited as we are about this new version!
+
+
+Based on your confirmation, your existing installation of IXM WEB is an older version and as such we will require a two-step process to complete the upgrade to IXM WEB 2.0:
+
+
+Step 1: Download and install IXM WEB version 1.7.0.0, click here
+
+
+Step 2: Download and install IXM WEB 2.0, click here
+
+
+Please do not hesitate to reach out to us via email, phone +1844 INVIXIUM (468 4948) or Skype: invixium_support should you have any additional questions.
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

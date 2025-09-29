@@ -1,0 +1,84 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><font face="Arial, sans-serif" size="2"><span style="color: rgb(34, 34, 34); line-height: 107%; background: white;">Dear&nbsp;</span><span style="color: black; line-height: 107%;"><span style="font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">{!Contact.FirstName}</span></span><span style="color: black; line-height: 107%;"><span style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">,</span><br style="font-variant-ligatures: normal;font-variant-caps: normal;
+orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">
+<br style="font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
+text-decoration-color: initial;word-spacing:0px">
+</span><span style="color: rgb(34, 34, 34); line-height: 107%; background: white;"><span style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">In response to the trailing email we are initiating an RMA. RMA Number –&nbsp;</span></span><span style="line-height: 107%; background: white;"><span style="orphans: 2; text-align: start; widows: 2; text-decoration-style: initial; text-decoration-color: initial;"><b>{!Case.custom_rma_number__c}</b><font color="#222222">. We request you to mention this RMA number in all future communications.</font></span></span><span style="color: black; line-height: 107%;"><br style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">
+<br style="font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
+text-decoration-color: initial;word-spacing:0px">
+</span><span style="color: rgb(34, 34, 34); line-height: 107%; background: white;"><span style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">Kindly ship the device to following address:<br>
+Invixium Access Pvt Ltd<br>
+Attn: Support<br>
+203-204 Elanza Vertex<br>
+Sindhu Bhavan Road, Bodakdev,<br>
+Ahmedabad, Gujarat – 380059, India<br>
+Ph:- +91 79 29703531<br>
+RMA No: –&nbsp;</span></span><span style="color: black; line-height: 107%;"><b style="background-color: rgb(255, 255, 255);">{!Case.custom_rma_number__c}</b><br style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">
+<br style="font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
+text-decoration-color: initial;word-spacing:0px">
+</span><span style="color: rgb(34, 34, 34); line-height: 107%; background: white;"><span style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">It will take up to 7 business days to inspect, repair &amp; ship the
+device back to you. Please note that if we do not receive the device within 30
+days of the initiation date, the RMA ticket will be marked as resolved.</span></span><span style="color: black; line-height: 107%;"><br style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">
+<br style="font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
+text-decoration-color: initial;word-spacing:0px">
+</span><span style="color: rgb(34, 34, 34); line-height: 107%; background: white;"><span style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">You will be notified via email for any update(s) to the RMA status.</span></span><span style="color: black; line-height: 107%;"><br style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">
+<br style="font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
+text-decoration-color: initial;word-spacing:0px">
+</span><b style="color: rgb(0, 0, 0);"><span style="line-height: 107%; color: rgb(34, 34, 34); background: white;"><span style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">"We do appreciate your feedback on Invixium system failure. Even
+though we are accepting your request for RMA, please make a note that we do
+have (No Fault Found) NFF charges of $75/ INR 1350 + all applicable taxes, where devices are found perfectly fine after receiving at Invixium Repair Center.</span></span></b><span style="color: black; background: white;">&nbsp;<b>Furthermore,</b>&nbsp;the&nbsp;</span><b style="color: rgb(0, 0, 0);"><span style="line-height: 107%; color: rgb(34, 34, 34); background: white;">customer will have to arrange to pick up unit(s)
+from Invixium Repair Center"</span></b><span style="color: black; line-height: 107%;"><br style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px">
+<br style="font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;
+text-align:start;widows: 2;-webkit-text-stroke-width: 0px;text-decoration-style: initial;
+text-decoration-color: initial;word-spacing:0px">
+</span><span style="color: rgb(34, 34, 34); line-height: 107%; background: white;"><span style="font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px;"><br></span></span></font></p><p class="MsoNormal" style=""><font face="Arial, sans-serif" size="2"><span style="color: rgb(34, 34, 34); line-height: 107%; background: white;"><span style="font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px;">Thank you for your kind patience.</span></span></font><font face="arial"><span style="font-size: 12pt;"><o:p></o:p></span></font></p><p class="MsoNormal" style=""><span style="color: rgb(34, 34, 34); font-family: Helvetica, sans-serif; font-size: 10pt; line-height: 107%; background: white;"><span style="font-variant-ligatures: normal;
+font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
+text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+0px"><br></span></span></p><div><div style="font-family: arial; font-size: 12pt;"><p class="MsoNormal" style="font-size: 12pt; background-color: rgb(255, 255, 255); text-align: justify;"><br></p><p class="MsoNormal" style="background-color: rgb(255, 255, 255);"><span style="color: rgb(255, 255, 255);"><font size="1" face="Arial, sans-serif">{!Case.Thread_Id}</font></span></p></div></div><p class="MsoNormal"><span style="color: rgb(34, 34, 34); font-family: Helvetica, sans-serif; font-size: 10pt; line-height: 107%; background: white;"></span></p><div style="font-family: arial; font-size: 12pt;"><br style="background-color: rgb(255, 255, 255);"></div><br>]]></td>
+</tr>
+</table>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Out of warranty device repaired and ready to ship. Pickup device from our office address.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Default_Letterhead</letterhead>
+    <name>Out of Warranty Repaired</name>
+    <style>freeForm</style>
+    <subject>RMA Update: Device Ready for Pickup</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+RMA Number - {!Case.custom_rma_number__c}
+
+
+We would like to inform you that your device(s) &lt;has/have&gt; been repaired and &lt;is/are&gt; ready for pickup. You can schedule the pick up from the following address:
+
+
+Name: &lt;Enter Name&gt;
+
+Address: &lt;Enter Office Address&gt;
+
+
+Please note that as per Invixium RMA Policy, if the payment is not received within 30 days then Invixium reserves the right to take possession of the unit(s) as abandoned.
+
+
+Thank You.
+
+
+Best Regards,
+
+
+
+Invixium Support Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

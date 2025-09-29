@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>customer requires any videos or user manuals</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Invixium Product Manuals</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+
+Thank you for your request regarding Invixium product &lt;videos/manuals/pictures/anything similar&gt;. We would like to inform you that the Invixium Customer Portal accessible from our website consists of an extensive library of product images, detailed manuals and feature description documents that is available to all our customers.
+
+
+If you do not already have an account to the Customer Portal, please provide us with the following details and you shall receive your credentials via email within the next 48 hours.
+
+
+
+First Name:
+Last Name:
+Email:
+Company:
+Country:
+
+
+
+If your specific requirement is not available on the customer portal, please let us know and we will try to fulfill you request at the earliest.
+
+
+For any other queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).
+
+
+Thank you for choosing Invixium!
+
+
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

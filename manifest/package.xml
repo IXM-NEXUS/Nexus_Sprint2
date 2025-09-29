@@ -1,36 +1,655 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>*</members>
+    <!--types>
+       <members>	CSATController	</members>
+<members>	CSATControllerTest	</members>
+<members>	CalculateBusinessHoursHelper	</members>
+<members>	CaseBusinessHoursTest	</members>
+<members>	CasePresenceController	</members>
+<members>	CasePresenceControllerTest	</members>
+<members>	CaseRMAApprovalTemplt	</members>
+<members>	TestCaseRMAApprovalTemplt	</members>
+<members>	CaseTransactions	</members>
+<members>	CaseTriggerHel	</members>
+<members>	CommunitiesLandingController	</members>
+<members>	CommunitiesLandingControllerTest	</members>
+<members>	CommunitiesLoginController	</members>
+<members>	CommunitiesLoginControllerTest	</members>
+<members>	CommunitiesSelfRegConfirmController	</members>
+<members>	CommunitiesSelfRegConfirmControllerTest	</members>
+<members>	CommunitiesSelfRegController	</members>
+<members>	CommunitiesSelfRegControllerTest	</members>
+<members>	ForwardProcessing	</members>
+<members>	ForwardProcessingTest	</members>
+<members>	MicrobatchSelfRegController	</members>
+<members>	MicrobatchSelfRegControllerTest	</members>
+<members>	PickListController	</members>
+<members>	SendRMAApprovalMessage	</members>
+<members>	SnapHelpWidgetController	</members>
+<members>	SnapHelpWidgetControllerTest	</members>
+<members>	TestCaseTriggerHelper	</members>
+<members>	TrialOnboardingController	</members>
+<members>	newCases	</members>
+<members>	LightningForgotPasswordController	</members>
+<members>	LightningForgotPasswordControllerTest	</members>
+<members>	LightningLoginFormController	</members>
+<members>	LightningLoginFormControllerTest	</members>
+<members>	LightningSelfRegisterController	</members>
+<members>	LightningSelfRegisterControllerTest	</members>
+<members>	ChangePasswordController	</members>
+<members>	ChangePasswordControllerTest	</members>
+<members>	ERPAccountService	</members>
+<members>	ERPAccountServiceTest	</members>
+<members>	PFD generator Apex class	</members>
+<members>	QuoteController	</members>
+<members>	QuoteControllerTest	</members>
+<members>	QuoteNumberGenerator	</members>
+<members>	QuoteNumberGeneratorTest	</members>
+<members>	GenerateQuotePDFCtrl	</members>
         <name>ApexClass</name>
-    </types>
+    </types-->
     <types>
-        <members>*</members>
+        <members>	RMAAprrovalMT	</members>
+<members>	SiteFooter	</members>
+<members>	SiteHeader	</members>
+<members>	SiteLogin	</members>
+<members>	SitePoweredBy	</members>
         <name>ApexComponent</name>
     </types>
     <types>
-        <members>*</members>
+        <members>	AnswersHome	</members>
+<members>	BandwidthExceeded	</members>
+<members>	CSAT	</members>
+<members>	CSATThankyou	</members>
+<members>	ChangePassword	</members>
+<members>	CommunitiesLanding	</members>
+<members>	CommunitiesLogin	</members>
+<members>	CommunitiesSelfReg	</members>
+<members>	CommunitiesSelfRegConfirm	</members>
+<members>	CommunitiesTemplate	</members>
+<members>	Exception	</members>
+<members>	FileNotFound	</members>
+<members>	ForgotPassword	</members>
+<members>	ForgotPasswordConfirm	</members>
+<members>	IdeasHome	</members>
+<members>	InMaintenance	</members>
+<members>	MicrobatchSelfReg	</members>
+<members>	MyProfilePage	</members>
         <name>ApexPage</name>
     </types>
+   
     <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>	CalculateBusinessHoursTrigger	</members>
+        <members>	CaseTriggerHelper	</members>
+        <members>	UpdateDeskIDOnCase	</members>
+        <members>	labelupdate	</members>
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>*</members>
+       <members>	CasePresence	</members>
+        <members>	CreateNewCase	</members>
+        <members>	ListViewRefresh	</members>
+        <members>	NewCase	</members>
+        <members>	PickListValues	</members>
+        <members>	SnapHelpWidget	</members>
+        <members>	TrialOnboarding	</members>
+        <members>	Welcome	</members>
+        <members>	cometDLoaded	</members>
+        <members>	forgotPassword	</members>
+        <members>	loginForm	</members>
+        <members>	selfRegister	</members>
+        <members>	setExpId	</members>
+        <members>	setStartUrl	</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
-        <members>*</members>
+        <members>quoteModal</members>
+         <members>editQuote</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
-        <members>*</members>
+        <members>	CSAT	</members>
+        <members>	GreenImage	</members>
+        <members>	RedImage	</members>
+        <members>	SiteSamples	</members>
+        <members>	YellowImg	</members>
+        <members>	cometd	</members>
+        <members>	icons	</members>
+        <members>	jQuery	</members>
+        <members>	widgetHelpIcon	</members>
         <name>StaticResource</name>
+    </types>
+
+  <types>
+        <members>Default_Letterhead</members>
+ <members>IXM_Letterhead</members>
+        <name>Letterhead</name>
+    </types>
+
+ <types>
+       <members>	Services_Templates/ASC_Activation_Email_to_Client	</members>
+<members>	Services_Templates/ASC_Quote_Email_to_Sales_OPS	</members>
+<members>	Services_Templates/ASC_Renewal_Required_Template	</members>
+<members>	Services_Templates/ASC_details_from_Client	</members>
+<members>	Services_Templates/Advance_Replacement	</members>
+<members>	Services_Templates/Auto_Response_Email_to_Customer	</members>
+<members>	Services_Templates/Case_Assignment_Notification	</members>
+<members>	Services_Templates/Case_Comment	</members>
+<members>	Services_Templates/Case_Escalation_template	</members>
+<members>	Services_Templates/Close_ticket_if_no_detail_in_5_days	</members>
+<members>	Services_Templates/Close_ticket_if_no_update_in_30_days	</members>
+<members>	Services_Templates/Convert_licence_key_mail	</members>
+<members>	Services_Templates/Customer_Fault_No_Warranty	</members>
+<members>	Services_Templates/Default_Signature	</members>
+<members>	Services_Templates/Device_Received_Confirmation	</members>
+<members>	Services_Templates/Device_Received_Confirmation_Out_Of_Warranty	</members>
+<members>	Services_Templates/Device_Repaired_Confirmation	</members>
+<members>	Services_Templates/Device_Shipped_Confirmation	</members>
+<members>	Services_Templates/Dispatch_Instruction_For_RMA_devices	</members>
+<members>	Services_Templates/Email_Signature	</members>
+<members>	Services_Templates/Engineering_Pending	</members>
+<members>	Services_Templates/Feedback_Template	</members>
+<members>	Services_Templates/First_pending_Reminder	</members>
+<members>	Services_Templates/Free_support_hours_over	</members>
+<members>	Services_Templates/Generate_New_Activation_ID	</members>
+<members>	Services_Templates/High_Priority_Case_Engineering_Team	</members>
+<members>	Services_Templates/High_Priority_Case_L2_Support_Engineering	</members>
+<members>	Services_Templates/High_Priority_Case_L3_Support_Engineering	</members>
+<members>	Services_Templates/Holiday_Response	</members>
+<members>	Services_Templates/IXMWEB_OFFLINE_KEY_TEMPLATE	</members>
+<members>	Services_Templates/IXM_WEB_2_0_Upgrade_Template	</members>
+<members>	Services_Templates/IXM_WEB_2_0_Upgrade_from_older_version_Template	</members>
+<members>	Services_Templates/IXM_WEB_3_0_Update_Pre_requisites	</members>
+<members>	Services_Templates/Invixium_Product_Manuals	</members>
+<members>	Services_Templates/Licence_Price_Details	</members>
+<members>	Services_Templates/Link_licence_key_mail	</members>
+<members>	Services_Templates/Low_Priority_Case_L3_Support_Engineering	</members>
+<members>	Services_Templates/Machine_Key_Other_Details_for_ASC_Information	</members>
+<members>	Services_Templates/Mail_to_request_machine_code	</members>
+<members>	Services_Templates/Medium_Priority_Case_L2_Support_Engineering	</members>
+<members>	Services_Templates/Medium_Priority_Case_L3_Support_Engineering	</members>
+<members>	Services_Templates/More_time_to_repair	</members>
+<members>	Services_Templates/No_Warranty_Sticker	</members>
+<members>	Services_Templates/No_fault_found	</members>
+<members>	Services_Templates/No_support_for_firmware	</members>
+<members>	Services_Templates/Offline_Activation_Key	</members>
+<members>	Services_Templates/Old_Default_Signature	</members>
+<members>	Services_Templates/Other_Department_Dependency	</members>
+<members>	Services_Templates/Out_of_Warranty	</members>
+<members>	Services_Templates/Out_of_Warranty_RMA_Details_to_Customer	</members>
+<members>	Services_Templates/Out_of_Warranty_Repaired	</members>
+<members>	Services_Templates/Pay_NFF_and_Return_Charges	</members>
+<members>	Services_Templates/Payment_Received_Confirmation	</members>
+<members>	Services_Templates/Processing_Return_Label	</members>
+<members>	Services_Templates/RIL_RMA_Template	</members>
+<members>	Services_Templates/RMA_Approval	</members>
+<members>	Services_Templates/RMA_Details	</members>
+<members>	Services_Templates/RMA_Initiating_Email_Template_India	</members>
+<members>	Services_Templates/RMA_Instructions_to_OPS	</members>
+<members>	Services_Templates/RMA_OUT_Approval	</members>
+<members>	Services_Templates/RMA_Return_Approval_Template	</members>
+<members>	Services_Templates/Re_open_10_Day_Pending_Case	</members>
+<members>	Services_Templates/Re_open_1_Day_Pending_Case	</members>
+<members>	Services_Templates/Re_open_2_Day_Pending_Case	</members>
+<members>	Services_Templates/Re_open_3_Day_Pending_Case	</members>
+<members>	Services_Templates/Re_open_4_Day_Pending_Case	</members>
+<members>	Services_Templates/Re_open_5_Day_Pending_Case	</members>
+<members>	Services_Templates/Re_open_6_Day_Pending_Case	</members>
+<members>	Services_Templates/Re_open_7_Day_Pending_Case	</members>
+<members>	Services_Templates/Re_open_8_Day_Pending_Case	</members>
+<members>	Services_Templates/Re_open_9_Day_Pending_Case	</members>
+<members>	Services_Templates/Redirect_user_to_customer_portal	</members>
+<members>	Services_Templates/Refurbishing_RMA_Device	</members>
+<members>	Services_Templates/Repair_charges_mail	</members>
+<members>	Services_Templates/Repo_unit_as_abandoned	</members>
+<members>	Services_Templates/Reports_Licence	</members>
+<members>	Services_Templates/Reports_trial	</members>
+<members>	Services_Templates/Request_for_RMA_Quote_to_Sales_OPS	</members>
+<members>	Services_Templates/Resolved_Case	</members>
+<members>	Services_Templates/SO_DELIVERY_TO_SALES_OPS	</members>
+<members>	Services_Templates/Second_pending_Reminder	</members>
+<members>	Services_Templates/Service_Order_Delivery_Actual	</members>
+<members>	Services_Templates/Service_Order_Delivery_SOFT	</members>
+<members>	Services_Templates/Service_Order_Delivery_for_Training	</members>
+<members>	Services_Templates/Shipment_Information_to_Sukhpal	</members>
+<members>	Services_Templates/Test_VF_RMA_Approval_Test	</members>
+<members>	Services_Templates/Third_and_Final_Pending_Reminder	</members>
+<members>	Services_Templates/Ticket_sent_for_RMA_Approval	</members>
+<members>	Services_Templates/Translate_Licence	</members>
+<members>	Services_Templates/Translate_trial	</members>
+<members>	Services_Templates/Under_Warranty_RMA_Details_to_Customer	</members>
+<members>	Services_Templates/Upgrade_to_new_versions	</members>
+<members>	Services_Templates/VF_RMA_Approval1	</members>
+<members>	Services_Templates/X1_5_hour_Case_Escalation_template	</members>
+<members>	Services_Templates/X1_hour_Case_Escalation_template	</members>
+<members>	Services_Templates/X7_Day_Pending_Reminder	</members>
+<members>	unfiled$public/ASC_Quote_request_1654155941163	</members>
+<members>	unfiled$public/CPasswordlessRegistrationEmailTemplate	</members>
+<members>	unfiled$public/Case_Assigned_Sample_1718628073209	</members>
+<members>	unfiled$public/Case_Closed_Sample_1718628073415	</members>
+<members>	unfiled$public/Case_Created_or_Updated_Sample_1718628073073	</members>
+<members>	unfiled$public/CommunityChangePasswordEmailTemplate	</members>
+<members>	unfiled$public/CommunityChgEmailVerNewTemplate	</members>
+<members>	unfiled$public/CommunityChgEmailVerOldTemplate	</members>
+<members>	unfiled$public/CommunityDeviceActEmailTemplate	</members>
+<members>	unfiled$public/CommunityForgotPasswordEmailTemplate	</members>
+<members>	unfiled$public/CommunityHeadlessRegistrationTemplate	</members>
+<members>	unfiled$public/CommunityLockoutEmailTemplate	</members>
+<members>	unfiled$public/CommunityVerificationEmailTemplate	</members>
+<members>	unfiled$public/CommunityWelcomeEmailTemplate	</members>
+<members>	unfiled$public/Email_to_Case_Sample_1718628073285	</members>
+<members>	unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate	</members>
+<members>	unfiled$public/Feedback_tem	</members>
+<members>	unfiled$public/Inetial_details_1653368045150	</members>
+<members>	unfiled$public/Latest_Test_Email_Template	</members>
+<members>	unfiled$public/Need_TO_repair_1566999499098	</members>
+<members>	unfiled$public/New_Signature	</members>
+<members>	unfiled$public/Pre_requisite_for_Application_update	</members>
+<members>	unfiled$public/Test_RMA	</members>
+<members>	unfiled$public/Web_to_Case_Sample_1718628073352	</members>
+<members>	unfiled$public/Case_Created_or_Updated_Sample_1755781409356	</members>
+<members>	unfiled$public/Case_Assigned_Sample_1755781409512	</members>
+<members>	unfiled$public/Email_to_Case_Sample_1755781409597	</members>
+<members>	unfiled$public/Web_to_Case_Sample_1755781409680	</members>
+<members>	unfiled$public/Case_Closed_Sample_1755781409756	</members>
+<members>	unfiled$public/Feedback_tem	</members>
+<members>	unfiled$public/Latest_Test_Email_Template	</members>
+<members>	Quote Approval Template	</members>
+<members>	Quote ApprovedVF	</members>
+<members>	Quote Recalled(Visualforce)	</members>
+<members>	Quote Submitted(Visualforce)	</members>
+        <name>EmailTemplate</name>
+    </types>
+
+     <types>
+       <members>	Engineering	</members>
+<members>	L1_Support	</members>
+<members>	L2_Support	</members>
+<members>	L3_Support	</members>
+<members>	Service_Case	</members>
+<members>	Unassigned_0	</members>
+<members>	DefaultGroup_560362	</members>
+        <name>Queue</name>
+    </types>
+
+<types>
+        <members>	Canada_Users_fields	</members>
+<members>	Desk_Migration	</members>
+<members>	Indian_Users_fields	</members>
+<members>	Salesforce_to_Community	</members>
+<members>	sfdc_chatbot_service_permset	</members>
+<members>	Sales Manager	</members>
+<members>	Sales ops	</members>
+        <name>PermissionSet</name>
+    </types>
+
+<types>
+        <members>	Account.Active_Partners	</members>
+<members>	Account.AllAccounts	</members>
+<members>	Account.Higher_Education_US	</members>
+<members>	Account.LatAm_Accounts	</members>
+<members>	Account.MyAccounts	</members>
+<members>	Account.NewThisWeek	</members>
+<members>	Account.Recently_Added_US_Accounts	</members>
+<members>	Case.ADI_BPCL_Cases	</members>
+<members>	Case.ALL_RMA_Data	</members>
+<members>	Case.ASC_Cases	</members>
+<members>	Case.AllOpenCases	</members>
+<members>	Case.All_Cases_1	</members>
+<members>	Case.All_Cases_Open_Pending_Kanban	</members>
+<members>	Case.All_Closed_Cases	</members>
+<members>	Case.All_Closed_Cases_New	</members>
+<members>	Case.All_Closed_cases_2025	</members>
+<members>	Case.All_New_Cases	</members>
+<members>	Case.All_OPEN_PENDING	</members>
+<members>	Case.All_Open_Cases	</members>
+<members>	Case.All_Pending_Cases	</members>
+<members>	Case.All_Resolved_Cases	</members>
+<members>	Case.All_Resolved_cases_2025	</members>
+<members>	Case.All_Unresolved_Cases	</members>
+<members>	Case.Bhavesh_Cases	</members>
+<members>	Case.CSCM_Discussion_Pending	</members>
+<members>	Case.Cases_Escalated_to_Kaushik	</members>
+<members>	Case.Chris_L_Cases	</members>
+<members>	Case.Copy_of_ALL_Pending_To_Resolve_Assigned	</members>
+<members>	Case.Copy_of_All_Resolved_Cases	</members>
+<members>	Case.DefaultGroup_560362_Case	</members>
+<members>	Case.Engineering_Case	</members>
+<members>	Case.Engineering_Escalations	</members>
+<members>	Case.Engineering_Pending	</members>
+<members>	Case.Gaurav	</members>
+<members>	Case.IXM_WEB_UPGRADE_2_2_40_0_Cases	</members>
+<members>	Case.Kanan_Cases	</members>
+<members>	Case.Kiran_Case	</members>
+<members>	Case.L1_Support_Case	</members>
+<members>	Case.L2_Support_Case	</members>
+<members>	Case.L3_Support_Case	</members>
+<members>	Case.Last_Week_Cases	</members>
+<members>	Case.MY_Resolve	</members>
+<members>	Case.MyCases	</members>
+<members>	Case.MyOpenCases	</members>
+<members>	Case.My_Closed_Cases	</members>
+<members>	Case.NON_RMA_Pending_Cases	</members>
+<members>	Case.Only_RMA_details	</members>
+<members>	Case.Other_Department_Dependency	</members>
+<members>	Case.Pending_Cases	</members>
+<members>	Case.Prakaksh_Cases	</members>
+<members>	Case.RMA_Approval_Pending	</members>
+<members>	Case.RMA_CANADA_INDIA	</members>
+<members>	Case.RMA_Cancelled	</members>
+<members>	Case.RMA_Completed	</members>
+<members>	Case.RMA_In_Progress_Details	</members>
+<members>	Case.RMA_Initiate_Canada	</members>
+<members>	Case.RMA_Initiate_India	</members>
+<members>	Case.RMA_Received	</members>
+<members>	Case.RMA_Received_Canada	</members>
+<members>	Case.RMA_Received_India	</members>
+<members>	Case.Resolve_Case	</members>
+<members>	Case.SO_Fullfillment	</members>
+<members>	Case.Service_Case_Case	</members>
+<members>	Case.Service_Orders	</members>
+<members>	Case.Siddhant_Cases	</members>
+<members>	Case.Total_Close_Case	</members>
+<members>	Case.TransGuard_open_ticket	</members>
+<members>	Case.Unassigned_0_Case	</members>
+<members>	Case.Unassigned_Cases	</members>
+<members>	Case.X023_cases	</members>
+<members>	Case.X2021_Cases	</members>
+<members>	Case.X2022Cases	</members>
+<members>	Contact.AllContacts	</members>
+<members>	Contact.BirthdaysThisMonth	</members>
+<members>	Contact.BulkMessageContacts	</members>
+<members>	Contact.MyContacts	</members>
+<members>	Contact.NewThisWeek	</members>
+<members>	Desk_Account_Migration__c.All	</members>
+<members>	Desk_Article_Migration__c.All	</members>
+<members>	Desk_Case_Migration__c.All	</members>
+<members>	Desk_Contact_Migration__c.All	</members>
+<members>	Knowledge_kav__c.All	</members>
+<members>	Knowledge_kav__c.Archived_Articles	</members>
+<members>	Knowledge_kav__c.Draft_Articles	</members>
+<members>	Knowledge_kav__c.Published_Articles	</members>
+        <name>ListView</name>
+    </types>
+
+    <types>
+        <members>	Account.ASC_Amount__c	</members>
+<members>	Account.ASC_Commence_Date__c	</members>
+<members>	Account.ASC_Renewal_Date__c	</members>
+<members>	Account.DESKSCMT_Desk_Company_Id__c	</members>
+<members>	Account.DESKSCMT_Desk_Migrated_Account__c	</members>
+<members>	Account.Desk_Id__c	</members>
+<members>	Account.created_at__c	</members>
+<members>	Account.custom_support_end_date__c	</members>
+<members>	Account.custom_support_start_date__c	</members>
+<members>	Account.domains__c	</members>
+<members>	Account.external_id__c	</members>
+<members>	Account.external_id_del__c	</members>
+<members>	Account.updated_at__c	</members>
+<members>	Case.AMC_Commence_Date__c	</members>
+<members>	Case.AMC__c	</members>
+<members>	Case.Agent_Feedback_Score__c	</members>
+<members>	Case.Agent_Feedback__c	</members>
+<members>	Case.Assigned_to_User__c	</members>
+<members>	Case.Business_Hours__c	</members>
+<members>	Case.Case_Age__c	</members>
+<members>	Case.Case_Current_Open_Age__c	</members>
+<members>	Case.Case_Open_Age_Total__c	</members>
+<members>	Case.Case_Open_From_Other_State__c	</members>
+<members>	Case.Cause_Code__c	</members>
+<members>	Case.Channel__c	</members>
+<members>	Case.Current_Case_Owner__c	</members>
+<members>	Case.Current_Date__c	</members>
+<members>	Case.DESKSCMT_Desk_Case_Id__c	</members>
+<members>	Case.DESKSCMT_Desk_Connect_Sync__c	</members>
+<members>	Case.DESKSCMT_Desk_Migrated_Case__c	</members>
+<members>	Case.Date_Time_First_Response__c	</members>
+<members>	Case.Date_Time_Open_Status_changed__c	</members>
+<members>	Case.Date_of_ECO_ECN_Applied__c	</members>
+<members>	Case.Defect_Code__c	</members>
+<members>	Case.Desk_Id__c	</members>
+<members>	Case.Device_Ship_Date__c	</members>
+<members>	Case.ECO_ECN_Applied__c	</members>
+<members>	Case.End_User_Name__c	</members>
+<members>	Case.Estimated_Repair_Date__c	</members>
+<members>	Case.Feedback_Comments__c	</members>
+<members>	Case.Feedback_for_Agent__c	</members>
+<members>	Case.First_Response_Sent__c	</members>
+<members>	Case.HSC_C__c	</members>
+<members>	Case.HSN__c	</members>
+<members>	Case.HSP__c	</members>
+<members>	Case.HSR__c	</members>
+<members>	Case.Hardware_Device_Category__c	</members>
+<members>	Case.Hours_Since_New_D_H__c	</members>
+<members>	Case.Hours_Since_New__c	</members>
+<members>	Case.Hours_Since_Pending__c	</members>
+<members>	Case.Hours_Since_Resolved__c	</members>
+<members>	Case.IXM_WEB_Issue__c	</members>
+<members>	Case.Idle_Case_Age_Canada__c	</members>
+<members>	Case.Idle_Case_Age_India__c	</members>
+<members>	Case.Installation_Environment__c	</members>
+<members>	Case.Instruction_to_Operations__c	</members>
+<members>	Case.Labels_Pickval__c	</members>
+<members>	Case.Latest_Label__c	</members>
+<members>	Case.Num_WM__c	</members>
+<members>	Case.Open_Age_LastValue__c	</members>
+<members>	Case.OwnerId__c	</members>
+<members>	Case.Pending_At__c	</members>
+<members>	Case.Previos_Owner_Name__c	</members>
+<members>	Case.Previous_Owner__c	</members>
+<members>	Case.Priority_Color__c	</members>
+<members>	Case.Product_Feedback_Score__c	</members>
+<members>	Case.Product_Feedback__c	</members>
+<members>	Case.RMA_Conclusion__c	</members>
+<members>	Case.RMA_Device_At_Invixium_Since__c	</members>
+<members>	Case.RMA_Initiated_and_Completed_Difference__c	</members>
+<members>	Case.RMA_Initiated_and_Device_Rcvd_Differ__c	</members>
+<members>	Case.RMA_View_List__c	</members>
+<members>	Case.RMA_by_Business_Category__c	</members>
+<members>	Case.RMA_device_rcvd_cmpltd_diff__c	</members>
+<members>	Case.Reason_for_delay_in_RMA__c	</members>
+<members>	Case.Repair_Agent__c	</members>
+<members>	Case.SLATargetDate__c	</members>
+<members>	Case.SLA_Violated_Date_Time__c	</members>
+<members>	Case.SLA_Violdation_D_T__c	</members>
+<members>	Case.Sales_Service_as_product__c	</members>
+<members>	Case.Summary_of_Analysis__c	</members>
+<members>	Case.ThreadId__c	</members>
+<members>	Case.Time_Since_Pending_D_H__c	</members>
+<members>	Case.Time_Since_Resolved_D_H__c	</members>
+<members>	Case.Total_Number_of_devices_RMA__c	</members>
+<members>	Case.Troubleshooting_Steps__c	</members>
+<members>	Case.active_at__c	</members>
+<members>	Case.changed_at__c	</members>
+<members>	Case.country_assignment__c	</members>
+<members>	Case.created_at__c	</members>
+<members>	Case.custom_call_duration__c	</members>
+<members>	Case.custom_category__c	</members>
+<members>	Case.custom_date_received__c	</members>
+<members>	Case.custom_device_family__c	</members>
+<members>	Case.custom_device_serial_no__c	</members>
+<members>	Case.custom_device_type__c	</members>
+<members>	Case.custom_firmware_version__c	</members>
+<members>	Case.custom_hour_received__c	</members>
+<members>	Case.custom_hour_received_del__c	</members>
+<members>	Case.custom_ixm_web_version__c	</members>
+<members>	Case.custom_mac_address__c	</members>
+<members>	Case.custom_number_of_devices__c	</members>
+<members>	Case.custom_rma_category__c	</members>
+<members>	Case.custom_rma_complete_date__c	</members>
+<members>	Case.custom_rma_device_received_date__c	</members>
+<members>	Case.custom_rma_devices_sent_to__c	</members>
+<members>	Case.custom_rma_initiate_date__c	</members>
+<members>	Case.custom_rma_repair_cost__c	</members>
+<members>	Case.custom_team_viewer_duration__c	</members>
+<members>	Case.custom_warranty_status__c	</members>
+<members>	Case.description__c	</members>
+<members>	Case.external_id__c	</members>
+<members>	Case.first_opened_at__c	</members>
+<members>	Case.isSLAViolated__c	</members>
+<members>	Case.isUpd__c	</members>
+<members>	Case.labels__c	</members>
+<members>	Case.language__c	</members>
+<members>	Case.opened_at__c	</members>
+<members>	Case.received_at__c	</members>
+<members>	Case.resolved_at__c	</members>
+<members>	Case.tempCurrentOpenHour__c	</members>
+<members>	Case.tempIdleAge__c	</members>
+<members>	Case.tempOpenAgeField__c	</members>
+<members>	Case.tempOpenAtcheck__c	</members>
+<members>	Case.tempOpenDate__c	</members>
+<members>	Case.test_labels_1__c	</members>
+<members>	Case.updated_at__c	</members>
+<members>	Contact.DESKSCMT__Desk_Customer_Id__c	</members>
+<members>	Contact.DESKSCMT__Desk_Migrated_Contact__c	</members>
+<members>	Contact.Desk_Id__c	</members>
+<members>	Contact.access_company_cases__c	</members>
+<members>	Contact.access_private_portal__c	</members>
+<members>	Contact.background__c	</members>
+<members>	Contact.created_at__c	</members>
+<members>	Contact.external_id__c	</members>
+<members>	Contact.language__c	</members>
+<members>	Contact.rcsfl__SMS_Number__c	</members>
+<members>	Contact.rcsfl__SendSMS__c	</members>
+<members>	Contact.updated_at__c	</members>
+<members>	Case.custom_rma_number__c	</members>
+<members>	Case.custom_rma_status__c	</members>
+<members>	Case.Status__c	</members>
+<members>	Case.Service_External_Id__c	</members>
+<members>	Account.Service_External_Id__c	</members>
+<members>	Contact.Service_External_Id__c	</members>
+<members>	Case.RMA_Device_received_and_Completed_date__c	</members>
+<members>	Opportunity.Billing_TBD__c	</members>
+<members>	Opportunity.Engagement_model__C	</members>
+<members>	Quote.Billing_Account_Formula__c	</members>
+<members>	Quote.End_Customer__c	</members>
+<members>	Order.PO_Number__c	</members>
+<members>	Opportunity.Opportunity_tagging__c	</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>	BypassProcessBuilder	</members>
+        <name>CustomLabel</name>
+    </types>
+
+
+<types>
+        
+<members>	Accountreports/Account_Wise_RMA_Report_hud	</members>
+<members>	AppExchangeServiceSupportDB/RepCase_Status_by_Business_Hours_YxJ	</members>
+<members>	Custom_Report/ALL_TITAN_RMAs_I0y	</members>
+<members>	Custom_Report/RMA_by_Region_zIG	</members>
+<members>	Custom_Report/RMA_per_Device_Family_WeS	</members>
+<members>	Custom_Report/RMA_report_by_Warranty_Type_sWT	</members>
+<members>	DHIRAJHAKKE/Monthly_Case_Report_CSCM_iDy	</members>
+<members>	DHIRAJHAKKE_NEW/CASES_PER_ACCOUNT_YTD_ao4	</members>
+<members>	DHIRAJHAKKE_NEW/CASES_PER_ACCOUNT_YTD_jFJ	</members>
+<members>	DHIRAJHAKKE_NEW/CASE_STATUS_PER_AGENT_CURRENT_MONTH_JIO	</members>
+<members>	DHIRAJHAKKE_NEW/HARDWARE_ISSUES_BY_PRODUCT_oAJ	</members>
+<members>	DHIRAJHAKKE_NEW/LAST_30_DAYS_RMA_INITIATION_TREND_Qsi	</members>
+<members>	DHIRAJHAKKE_NEW/MONTHLY_RMA_DETAILS_pjn	</members>
+<members>	DHIRAJHAKKE_NEW/NUMBER_OF_CLOSED_CASES_3jn	</members>
+<members>	DHIRAJHAKKE_NEW/NUMBER_OF_NEW_CASES_RqZ	</members>
+<members>	DHIRAJHAKKE_NEW/NUMBER_OF_OPEN_CASES_Ij7	</members>
+<members>	DHIRAJHAKKE_NEW/NUMBER_OF_PENDING_CASES_vOB	</members>
+<members>	DHIRAJHAKKE_NEW/NUMBER_OF_RESOLVED_CASES_hXq	</members>
+<members>	DHIRAJHAKKE_NEW/New_Cases_Report_niq	</members>
+<members>	DHIRAJHAKKE_NEW/QUARTERLY_RMA_DETAILS_15u	</members>
+<members>	DHIRAJHAKKE_NEW/QUARTERLY_RMA_DETAILS_X25	</members>
+<members>	DHIRAJHAKKE_NEW/RECENT_RMA_NUMBERS_CANADA_LAI	</members>
+<members>	DHIRAJHAKKE_NEW/RECENT_RMA_NUMBERS_INDIA_bDs	</members>
+<members>	DHIRAJHAKKE_NEW/RMA_PER_HARDWARE_ISSUE_Aaf	</members>
+<members>	DHIRAJHAKKE_NEW/YEARLY_RMA_DETAILS_Rhw	</members>
+<members>	DHIRAJHAKKE_NEW/YEARLY_RMA_DETAILS_jVv	</members>
+<members>	Jitendra/RMA_PER_PRODUCT_FAMILY_ThK	</members>
+<members>	ProjectNexus/Account_Without_Cases_with_Contacts_JaO	</members>
+<members>	ProjectNexus/Account_without_Case_and_Contacts_nmY	</members>
+<members>	RMAReports/ALL_PENDING_RMAs_India_Canada_Nwc	</members>
+<members>	TechnicalServices2025/Account_with_Case_and_contacts_dy6	</members>
+<members>	TechnicalServices2025/Case_summary_Monthly_2024_JzW	</members>
+<members>	TechnicalServices2025/Case_with_RMA_and_device_details_2025_8gk	</members>
+<members>	TechnicalServices2025/RMA_Details_202425_KHI	</members>
+<members>	TechnicalServices2025/RMA_Details_2025_ADl	</members>
+<members>	X2024/Case_with_RMA_and_device_details_2024_Hg9	</members>
+<members>	X2024/RMA_Details_202324_JMF	</members>
+<members>	X2024/RMA_Details_2024_ch0	</members>
+<members>	DHIRAJHAKKE/RMA_PER_PRODUCT_FAMILY_SK1_Last_2_YR_jzN	</members>
+<members>	DHIRAJHAKKE_NEW/RMA_COMPLETED_PER_ACCOUNT_AFTER_2017_ESK	</members>
+        <name>Report</name>
+    </types>
+
+   <types>
+        <members>Account_with_Case_and_contacts</members>
+        <name>ReportType</name>
+    </types>
+    
+    <types>
+        <members>	Knowledge_Article__c	</members>
+<members>	RMA_Device_Detail__c	</members>
+<members>	Knowledge_kav__c	</members>
+<members>	Desk_Account_Migration__c	</members>
+<members>	Desk_Article_Migration__c	</members>
+<members>	Desk_Case_Migration__c	</members>
+<members>	Desk_Contact_Migration__c	</members>
+<members>	DeskComMigrationSetting__c	</members>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Location</members>
+        <members>User</members>
+        <name>CustomObject</name>
+    </types>
+    
+    <types>
+        <members>	Create_Contact_for_Case	</members>
+<members>	Flow_for_Outgoing_Email_Processing	</members>
+<members>	Quote_Primary_Won_Processing	</members>
+<members>	AutoAssign_Billing_Account_On_Enterprise_RFP_7oe1xk	</members>
+<members>	Assign_Business_Hours	</members>
+<members>	Case_Resolved_Rules	</members>
+<members>	Email_on_Closed_Case	</members>
+<members>	Incoming_Email_Processing	</members>
+<members>	Outgoing_Email_Processing_2	</members>
+<members>	Send_Email_on_RMA_Approval	</members>
+<members>	Time_Rule	</members>
+<members>	Update_Case_Open_Date_and_Time	</members>
+<members>	Update_RMA_List_View	</members>
+        <name>Flow</name>
+    </types>
+   
+    <types>
+        <members>	Case.Blocked_Email_Addresses	</members>
+<members>	Case.Blocked_Email_Addresses1	</members>
+<members>	Case.Category_Mandate	</members>
+<members>	Case.Category_Mandate_NEW_TO_PENDING	</members>
+<members>	Case.Contact_Mandatory_for_Case_Closing	</members>
+<members>	Case.Contact_Mandatory_for_Case_Resolved	</members>
+<members>	Case.RMA_Details_Mandate	</members>
+<members>	Direct_Account_Match	</members>
+<members>	Validate_Billing_And_End_Customer_Type	</members>
+<members>	Prevent_Close_Billing_Or_Account_TBD	</members>
+        <name>ValidationRule</name>
+    </types>
+    
+    <types>
+        <members>	Desk_Account_Migration__c	</members>
+<members>	Desk_Article_Migration__c	</members>
+<members>	Desk_Case_Migration__c	</members>
+<members>	Desk_Contact_Migration__c	</members>
+<members>	Knowledge_kav__c	</members>
+        <name>CustomTab</name>
+    </types>
+
+<types>
+       <members>	Account_Record_Page	</members>
+<members>	CaseDefault_Record_Page	</members>
+<members>	CaseDefault_Record_Page1	</members>
+<members>	Case_Record_Page	</members>
+<members>	Contact_Record_Page	</members>
+<members>	Contact_Record_Page1	</members>
+<members>	Contact_Record_Page_1	</members>
+<members>	Contract_Lightning_Records_Page	</members>
+<members>	RMA_Device_Detail_Record_Page	</members>
+        <name>FlexiPage</name>
     </types>
     <version>64.0</version>
 </Package>

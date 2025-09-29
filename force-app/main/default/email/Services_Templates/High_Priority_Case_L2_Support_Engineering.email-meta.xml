@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>High Priority Case - L2 Support Engineering</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>High Priority Case - L2 Support Engineering</name>
+    <style>freeForm</style>
+    <subject>SLA Violated for - Case #{!Case.CaseNumber} &amp; Priority of Case – High</subject>
+    <textOnly>Dear {!Case.OwnerFullName},
+
+Case# {!Case.CaseNumber} opened first time on {!Case.CreatedDate} is now escalated to {!Case.OwnerFullName}.
+
+Based on the SLA Escalation Rule – Case is not resolved by {!Case.Previos_Owner_Name__c} within [# of days since case is opened but not resolved] days.
+
+Here are the Case Details:
+
+
+Case Number: {!Case.CaseNumber}
+Subject: {!Case.Subject}
+· Case Current Status: {!Case.Staus}
+
+
+Kindly look into this on high priority.
+
+Best Regards,
+
+Invixium Technical Services Team
+
+Contact US: +1 844 INVIXIUM (468 4948) Email: support@invixium.com
+
+
+Work Hours: 12:00 AM to 5:00 PM (Eastern Time) Skype: invixium_support</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

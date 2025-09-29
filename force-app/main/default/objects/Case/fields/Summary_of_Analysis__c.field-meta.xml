@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summary_of_Analysis__c</fullName>
+    <description>This field is used to mentioned the summary of device(s) analysis upon repair process. This is the same field we are using in DAR while shipping back or marking RMA case completed.</description>
+    <inlineHelpText>We need to add summary of analysis for device(s) received for RMA by taking help of Repair Agent. For Canada RMA take input from Li and for India RMA take input from Rohit or engineering team.</inlineHelpText>
+    <label>Summary of Analysis</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

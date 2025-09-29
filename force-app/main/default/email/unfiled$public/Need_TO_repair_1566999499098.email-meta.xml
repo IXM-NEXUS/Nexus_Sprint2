@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Repair mail to Engg</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Inform Engg Team for Need TO repair Device</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Device Repair - {{{Case.custom_rma_number__c}}}  ({{{Case.custom_device_serial_no__c}}})</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

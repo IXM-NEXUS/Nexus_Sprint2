@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template used for Application update to 3.0</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Pre-requisite for Application update</name>
+    <style>freeForm</style>
+    <subject>Pre-requisite for IXM WEB Application update to version 3.0.</subject>
+    <textOnly>Pre-requisites:
+
+System Requirements
+CPU Requirement	2.4 GHz Quad Core
+RAM Requirement	8 GB RAM
+
+Hard Disk Requirement	50 GB Hard disk
+Network Interface	TCP/IP, RS232, RS485, Wi-Fi
+WEB Server Requirement	Microsoft IIS v10.0
+Microsoft .Net Framework	Version 4.8
+Database	SQL Server 2014 or higher
+License	Free. Annual Maintenance Cost for updates and support. (2nd year onwards)
+Operating Systems	Windows 10 Professional Version
+Windows 11 Professional Version
+Windows Server 2016
+Standard Windows Server 2019
+Supported Browsers	Google Chrome TM version 97.0 or later
+Mozilla Firefox version 96.0 or later
+Microsoft Edge version 102.0 or later
+Apple Safari version 14.1.2 or later (Mac OS only)
+Supported Devices	Desktop, Notebook, Smartphone, Tablet
+
+	We may require access to the database during the update process—requesting permission in advance.
+	CPU and RMA capacity may change according to total number of devices and total numbers of employees in IXM WEB.
+	Also please share the following
+o	IXM WEB Machine key (text Format)
+o	Device list
+o	Total number of Employees in IXM WEB
+
+Backup:
+	Take a database backup.
+	Backup the IXM WEB folder located at C:\Program Files (x86) \Invixium\.
+	Expect 4-5 hours of downtime for firmware updates. Application updates will not affect operations.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

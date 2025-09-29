@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RMA Initiating Email Template for India</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>RMA Initiating Email Template India</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+In response to the trailing email we are initiating an RMA. RMA Number – {!Case.custom_rma_number__c}. We request you to mention this RMA number in all future communications.
+
+Kindly ship the device to following address:
+Invixium Access Pvt Ltd
+Attn: Support
+203-204 Elanza Vertex
+Sindhu Bhavan Road, Bodakdev,
+Ahmedabad, Gujarat – 380059, India
+Ph:- +91 79 29703531
+RMA No: – {!Case.custom_rma_number__c}
+
+It will take up to 7 business days to inspect, repair &amp; ship the device back to you. Please note that if we do not receive the device within 30 days of the initiation date, the RMA ticket will be marked as resolved.
+
+You will be notified via email for any update(s) to the RMA status.
+
+&quot;We do appreciate your feedback on Invixium system failure. Even though we are accepting your request for RMA, please make a note that we do have (No Fault Found) NFF charges $75/ INR 1350 + all applicable taxes, where if devices found perfectly fine after receiving at Invixium Repair Center. Furthermore, customer will have to arrange pick up unit(s) from Invixium Repair Center&quot;
+
+Thank you for your kind patience.
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

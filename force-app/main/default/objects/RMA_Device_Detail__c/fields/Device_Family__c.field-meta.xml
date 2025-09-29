@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Device_Family__c</fullName>
+    <label>Device Family</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MYCRO</fullName>
+                <default>false</default>
+                <label>MYCRO</label>
+            </value>
+            <value>
+                <fullName>MERGE</fullName>
+                <default>false</default>
+                <label>MERGE</label>
+            </value>
+            <value>
+                <fullName>SENSE</fullName>
+                <default>false</default>
+                <label>SENSE</label>
+            </value>
+            <value>
+                <fullName>TOUCH</fullName>
+                <default>false</default>
+                <label>TOUCH</label>
+            </value>
+            <value>
+                <fullName>SENSE2</fullName>
+                <default>false</default>
+                <label>SENSE 2</label>
+            </value>
+            <value>
+                <fullName>TOUCH2</fullName>
+                <default>false</default>
+                <label>TOUCH 2</label>
+            </value>
+            <value>
+                <fullName>TOUCH LITE</fullName>
+                <default>false</default>
+                <label>TOUCH LITE</label>
+            </value>
+            <value>
+                <fullName>TITAN</fullName>
+                <default>false</default>
+                <label>TITAN</label>
+            </value>
+            <value>
+                <fullName>ICP</fullName>
+                <default>false</default>
+                <label>ICP</label>
+            </value>
+            <value>
+                <fullName>MERGE 2</fullName>
+                <default>false</default>
+                <label>MERGE 2</label>
+            </value>
+            <value>
+                <fullName>TFACE</fullName>
+                <default>false</default>
+                <label>TFACE</label>
+            </value>
+            <value>
+                <fullName>TITAN GEN 2</fullName>
+                <default>false</default>
+                <label>TITAN GEN 2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

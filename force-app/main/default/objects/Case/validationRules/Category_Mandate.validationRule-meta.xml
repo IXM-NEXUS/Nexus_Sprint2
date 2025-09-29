@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Mandate</fullName>
+    <active>false</active>
+    <description>Case not saved if category field mandatory</description>
+    <errorConditionFormula>AND(ISPICKVAL( Status, &quot;Open&quot; ), 
+(ISBLANK(TEXT(custom_category__c))))</errorConditionFormula>
+    <errorMessage>Please select Category</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Current_Open_Age__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Status, &quot;Open&quot;),TEXT(FLOOR( 17 *(( 5 * FLOOR( ( DATEVALUE( NOW() ) - DATE( 1900, 1, 8) ) / 7) + MIN(5, MOD( DATEVALUE( NOW() ) - DATE( 1900, 1, 8), 7) + MIN( 1, 24 / 17 * ( MOD( NOW() - DATETIMEVALUE( &apos;1900-01-08 19:00:00&apos; ), 1 ) ) ) ) ) - ( 5 * FLOOR( ( DATEVALUE( opened_at__c ) - DATE( 1900, 1, 8) ) / 7) + MIN( 5, MOD( DATEVALUE( opened_at__c ) - DATE( 1996, 1, 1), 7 ) + MIN( 1, 24 / 17 * ( MOD( opened_at__c - DATETIMEVALUE( &apos;1900-01-08 19:00:00&apos; ), 1) ) ) ) ) ))) &amp; &quot; Hours &quot; &amp; TEXT( ROUND( MOD( (NOW() - opened_at__c ) * 24 * 59, 59 ), 0 ) ) &amp; &quot; minutes&quot;, &apos;0 Hours 0 minutes&apos; )</formula>
+    <label>Idle Case Age</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

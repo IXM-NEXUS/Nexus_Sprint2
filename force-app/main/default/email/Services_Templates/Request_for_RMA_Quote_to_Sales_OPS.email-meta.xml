@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use this template to send to Sales Ops for sending RMA offer to client.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Request for RMA Quote to Sales OPS</name>
+    <style>freeForm</style>
+    <subject>RMA quotation against {!Case.custom_rma_number__c}</subject>
+    <textOnly>Hi Team,
+
+Please share the Quotation for the Repair of the following parts.
+
+
+Sr. No.
+
+Description
+
+Details
+
+1
+
+RMA Number
+
+{!Case.custom_rma_number__c}
+
+2
+
+Device Type
+
+
+
+3
+
+Device Serial Number
+
+{!RMA_Device_Detail__c.Device_Serial_Number__c}
+
+4
+
+Client Name
+
+
+
+5
+
+End User Name
+
+
+
+6
+
+Warranty
+
+{!RMA_Device_Detail__c.Warranty_Status__c}
+
+7
+
+Contact details for Sending the offer
+
+·
+
+
+8
+
+Part/Part Details/ quantity
+
+Part/ Part Details
+
+Quantity
+
+
+
+
+
+
+
+
+
+9
+
+Labor Hour</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

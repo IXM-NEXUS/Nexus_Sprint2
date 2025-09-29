@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent to customer for IXM WEB 2.0 upgrade whose activation is within 1 year</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>IXM WEB 2.0 Upgrade</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Thank you for your request of IXM WEB 2.0, the latest software from Invixium!
+
+
+Not just an update but a major upgrade, IXM WEB 2.0 is available free-of-charge to existing customers with an active Annual Support Contract (ASC).
+
+
+NOTE: An active ASC denotes any IXM WEB software activation within the last 12 months. Post 12 months, your ASC is considered expired and will require renewal in order to receive the upgrade. The annual fee for the Invixium ASC is $299 US, which includes post-sales support for the next 12 months via phone, email or Skype from the Invixium Technical Services team along with any future firmware or software updates from Invixium.
+
+
+We thank you for your patience as we go through some questions to validate the most appropriate upgrade process.
+
+
+Question 1: Kindly confirm if you have an existing installation of IXM WEB? If yes, please confirm the version (ie. 1.7.0.0, 1.4.9.0.0, etc.) along with the registered email address and Machine Code used for activation?
+
+
+Question 2: If you do not have an existing installation of IXM WEB, kindly confirm from which Invixium Authorized Distributor did you purchase our products from (name and country from where you purchased Invixium)?
+
+
+Given that this is a new release, we are providing all of our customers to undergo a comprehensive 30-min webinar provided by Invixium Technical Services team to walk through the following features:
+
+Swift Installation
+Interactive Dashboards
+Device Management
+Employee Management
+Enrollment Best Practices
+Intro to Licensed modules: IXM Link, Convert and Time
+
+Kindly click on the link below to schedule a date and time for the webinar that best suits your schedule:
+
+https://calendly.com/ixmevents/ixm-web-2-0-webinar
+
+
+Upon completion of the webinar training, you will receive a download link via email to begin your IXM WEB 2.0 upgrade.
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

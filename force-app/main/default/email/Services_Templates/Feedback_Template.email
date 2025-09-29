@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    
+    <style type="text/css">
+      body {
+         margin: 0;
+         mso-line-height-rule: exactly;
+         padding: 0;
+      min-width:100%;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+        vertical-align: top;
+      }
+      .spacer,
+      .border {
+        font-size: 1px;
+        line-height: 1px;
+      }
+      .spacer {
+        width: 100%;
+      }
+      img {
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+      }
+      .centered {
+       Margin-left: auto;
+       Margin-right: auto;
+      }
+      
+        .wrapper {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    min-width: 620px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  table.wrapper {
+    table-layout: fixed;
+  }
+        .wrapper a {
+    text-decoration: underline;
+    transition: all .2s;
+  }
+  .wrapper h1 {
+    font-size: 36px;
+    Margin-bottom: 18px;
+  }
+    </style> 
+<script>
+  function newfunc(){
+    alert(window.location.href);
+  }
+  window.onload = newfunc;
+
+</script>
+
+  </head>
+
+<body style="margin: 0; mso-line-height-rule: exactly; padding: 0; min-width:100%;">
+
+Hi {!Contact.FirstName},
+  
+  
+<center class="wrapper" style="display: table;table-layout: fixed;width: 100%;min-width: 320px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">  
+    
+<!-- NEW CSAT BLOCK -->
+<table class="centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto; width: 100%; height: auto; margin-top: 15px; padding-top: 15px; padding-bottom: 15px; background: #f2f2f2; border-radius: 3px; overflow: hidden;">
+  <tbody>
+     <tr>
+       <td>
+    
+        <h1 style="text-align: center; font-size: 16px; font-family: Avenir,sans-serif !important; color: #383838;">
+          How did I do?
+        </h1>
+        
+        <!-- RATE BLOCK -->
+        <p style="Margin-top: 0; text-align:center; color: #565656;font-family: sans-serif;font-size: 16px;line-height: 25px;">
+                              <!-- RATE LOOP -->
+                              
+                                  <span class="customer-feedback-rating">
+                                    <a href="http://<yoursite>.force.com/CSAT?CaseID={!Case.Id}&Score=4&AgentName={!User.Name}" style="text-decoration: none;">
+                 <img style="height:29px;width:30px;" src="https://ci4.googleusercontent.com/proxy/RqaDZpOtYZVSKTAzoPFgnTkiF2QUXDkIMH9BSGcSNJh_fFHxjnwvDJiGuv2vn8lxD4h6ZwUTTKM92uL1ViInss67SRsq3j-qb4Ck-EpQqv6CUWCic3bNWp6xplNQSIRYRa_c9-EHQw=s0-d-e1-ft#https://cdn.desk.com/assets/rating_type200_3-0c4460f91dd211b465e6e170587815c7.png" alt="  :D">
+                          </a>
+                                  </span>
+                                  
+                                  <span style="margin: 0 10px 0 10px;"></span>
+                                  
+                                  <span class="customer-feedback-rating">
+                                    <a href="https://<yoursite>.secure.force.com/CSAT?CaseID={!Case.Id}&Score=3&AgentName={!User.Name}" style="text-decoration: none;">
+                  <img style="height:29px;width:30px;" src="https://ci3.googleusercontent.com/proxy/qUiJplpzJziYVvBganH7voSu_mzqJ7lcOmgi_He-itNuDmTqusCYF9O9MURKaRid2vrTGI9dyrfHAngWdzGOwA5GoMAkKLFzcWtjeACXhFqEVgCIWzGVxIn9w349Mrv48IL7vAgD0A=s0-d-e1-ft#https://cdn.desk.com/assets/rating_type200_2-9d25e4d93d0b1ba6586d1dd14f7e0208.png" alt="  :)">
+                          </a>
+                                  </span>
+                                  
+                                  <span style="margin: 0 10px 0 10px;"></span>
+                                  
+                                  <span class="customer-feedback-rating">
+                                    <a href="https://<yoursite>.secure.force.com/CSAT?CaseID={!Case.Id}&Score=2&AgentName={!User.Name}" style="text-decoration: none;">
+                  <img style="height:29px;width:30px;" src="https://ci6.googleusercontent.com/proxy/ipDzhSyw76ij4BdDbIeDkp_kAxpGhWXskCONbvC0RyPrb0_HZg6sckSlmro_aBxiceFjSTNrQngULKkNshTPicAvuWi4s8DxHFatDYsoKI2mJjSp1RU4mumsaRpZq1ltG8UeKDkHSw=s0-d-e1-ft#https://cdn.desk.com/assets/rating_type200_1-ffb29a801e8197dfede7cd6c92fb8440.png" alt="  :|">
+                          </a>
+                                  </span>
+                                  
+                                  <span style="margin: 0 10px 0 10px;"></span>
+                                  
+                                  <span class="customer-feedback-rating">
+                                   <a href="https://<yoursite>.secure.force.com/CSAT?CaseID={!Case.Id}&Score=1&AgentName={!User.Name}" style="text-decoration: none;">
+                   <img style="height:29px;width:30px;" src="https://ci3.googleusercontent.com/proxy/Rl3Z7EbPWcTQ0nmnZvA9meQxRoxBk7H7DdDG53hkr5J_EREXqfZegKmkVKDMqm1Uvn46xDx3S3ZDcbhKELVnAvOhkvCTSqw6Mvezx-CRYwRQUw0xl7Pv8l5Q8pxWDX3tYKTbCSjw6A=s0-d-e1-ft#https://cdn.desk.com/assets/rating_type200_0-9c891b6b12dd984d8fb669f80e98d0a2.png" alt="  :(">
+                          </a>
+                                  </span>
+                            <!-- RATE LOOP END -->
+                            </p>
+                          <!-- RATE BLOCK END -->
+                  
+                          <!-- BODY TEXT -->
+                <p style="text-align: center; font-size: 14px; color: #4e4e4e; font-family: Avenir,sans-serif !important;">
+        Click a rating for the Agent that helped you, and give us your feedback.
+                </p>
+                          <!-- BODY TEXT -->
+
+  </tbody>
+</table>
+</center>
+    
+<table style="background: #009DDC; width: 100%; border-radius: 0px 0 3px 3px; margin-bottom: 15px; border-top: 2px solid #1691c5">
+  <tbody>
+    <tr>
+      <td>
+        <p style="font-family: Avenir,sans-serif !important; color: #fff; font-size: 14px; text-align: center;"> 
+
+          </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- STATUS PAGE BUTTON v2 -->
+    
+
+
+<!-- THREAD ID -->
+
+<div style="clear: both;"><span style="color:white;"></span></div>
+
+
+<br/>
+<p style="padding-top: 5px; color: #6a6a6a; text-align: center; font-family:Avenir, helvetica, sans-serif !important;font-size:13px;">This is Case #{!Case.CaseNumber}<p>
+
+</body>
+</html>
+
+{!Case.Thread_Id}

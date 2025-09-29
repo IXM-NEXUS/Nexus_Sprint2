@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>As per warranty device is under warranty but fault we have found is due to customer fault and that is not considered under warranty.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Customer Fault No Warranty</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+RMA Number - {!Case.custom_rma_number__c}
+
+
+After a detailed inspection of your RMA device(s), we have concluded that the faults with the device(s) &lt;was/were&gt; due to the following reason(s):
+
+
+&lt;Enter issue with the device&gt;
+
+
+&lt;This/These&gt; issues are not covered under the Invixium warranty policy as they seem to have stemmed from &lt;poor handling/improper installation/give possible reason&gt;
+
+
+In order for us to repair the device(s), the following costs will be incurred:
+
+{!Case.custom_rma_repair_cost__c}
+
+
+Please let us know on how you would like us to proceed.
+
+
+For any other queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).
+
+
+Thank you for choosing Invixium!
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

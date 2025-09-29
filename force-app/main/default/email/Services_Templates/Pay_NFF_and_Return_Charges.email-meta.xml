@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>If customer does not want to pay for repair charges then ask them to pay NFF charges &amp; return shipping charges or pickup device from our location.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Default_Letterhead</letterhead>
+    <name>Pay NFF and Return Charges</name>
+    <style>freeForm</style>
+    <subject>Labor cost and shipping charges in case of no repair</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+This email is with respect to RMA {!Case.custom_rma_number__c} issued on {!Case.custom_rma_initiate_date__c}.
+
+
+Based on your request dated &lt;enter date of email when they asked to return devices&gt;, to return the device(s) without repairing, we want to inform you that you will have to incur labor costs for inspection as well as shipping or pickup.
+
+
+The total cost is:
+
+&lt;Give cost and breakup&gt;
+
+
+We request you to fill out the attached credit card authorization form and send it back to us at the earliest, in order for us to return the device(s) to you.
+
+
+Please note that as per Invixium RMA Policy, if the payment is not received within 30 days then Invixium reserves the right to take possession of the unit(s) as abandoned.
+
+
+Best Regards,
+
+Invixium Support Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

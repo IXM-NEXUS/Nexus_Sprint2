@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>custom_rma_category__c</fullName>
+    <label>RMA Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Please Select</fullName>
+                <default>false</default>
+                <label>Please Select</label>
+            </value>
+            <value>
+                <fullName>Normal RMA</fullName>
+                <default>false</default>
+                <label>Normal RMA</label>
+            </value>
+            <value>
+                <fullName>Recall Devices</fullName>
+                <default>false</default>
+                <label>Recall Devices</label>
+            </value>
+            <value>
+                <fullName>Return for Credit</fullName>
+                <default>false</default>
+                <label>Return for Credit</label>
+            </value>
+            <value>
+                <fullName>Advance Replacement</fullName>
+                <default>false</default>
+                <label>Advance Replacement</label>
+            </value>
+            <value>
+                <fullName>Invixium Certified Product</fullName>
+                <default>false</default>
+                <label>Invixium Certified Product</label>
+            </value>
+            <value>
+                <fullName>IO Cable Replacement</fullName>
+                <default>false</default>
+                <label>IO Cable Replacement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

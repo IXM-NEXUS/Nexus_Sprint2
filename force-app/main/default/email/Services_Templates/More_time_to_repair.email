@@ -1,0 +1,43 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif" style="">Dear {!Contact.FirstName},<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif">RMA
+Number -&nbsp;{!Case.custom_rma_number__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif">We
+would like to inform you that your device(s) &lt;is/are&gt; still undergoing
+repair. After further inspection we have realized that repairing
+&lt;this/these&gt; device(s) might take more than our initially expected time. <o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif">You
+will be notified via email for any update(s) to the RMA status.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style=""><font face="Arial, sans-serif"><span lang="EN-US" style="">For any other queries, feel free to
+contact us at </span><span lang="EN-CA"><a href="mailto:support@invixium.com"><span lang="EN-US" style="">support@invixium.com</span></a></span><span lang="EN-US" style=""> </span><span lang="EN-GB" style="">or +1 844 INVIXIUM (468 4948).</span><span lang="EN-US" style=""><o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style=""><span lang="EN-GB" style=""><font face="Arial, sans-serif">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style=""><span lang="EN-CA" style=""><font face="Arial, sans-serif">Thank
+you for choosing Invixium!<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style=""><font face="Arial, sans-serif"><span lang="EN-GB" style="">&nbsp;</span><o:p></o:p></font></p>
+
+<span lang="EN-CA" style=""><font face="Arial, sans-serif">Best Regards,</font></span><div style="font-size: 12pt; font-family: arial;"><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:
+Calibri;mso-ansi-language:EN-CA;mso-fareast-language:EN-CA;mso-bidi-language:
+AR-SA"><br></span></div><div style="font-size: 12pt; font-family: arial;"><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:
+Calibri;mso-ansi-language:EN-CA;mso-fareast-language:EN-CA;mso-bidi-language:
+AR-SA"><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span lang="EN-US" style="font-family: Arial, sans-serif; color: rgb(255, 102, 0);">Invixium Support Team<o:p></o:p></span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span lang="EN-US" style="font-size: 9pt; font-family: Verdana, sans-serif; color: rgb(31, 73, 125);">&nbsp;</span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span lang="EN-US" style="font-size: 9pt; font-family: Verdana, sans-serif; color: rgb(31, 73, 125);">Contact US&nbsp; :&nbsp;</span><span lang="EN-CA" style="font-size: 9pt; font-family: Arial, sans-serif;">+1 844 INVIXIUM (468 4948)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span lang="EN-CA" style="font-size: 9pt; font-family: Verdana, sans-serif; color: rgb(31, 73, 125);">Email :&nbsp;</span><span lang="EN-CA" style="font-size: 8pt; font-family: Verdana, sans-serif;"><a href="mailto:support@invixium.com"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">support@invixium.com</span></a></span><span lang="EN-CA" style="font-family: Arial, sans-serif;"><o:p></o:p></span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span lang="EN-CA" style="font-family: Arial, sans-serif;">&nbsp;</span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span lang="EN-CA" style="font-size: 9pt; font-family: Verdana, sans-serif; color: rgb(31, 73, 125);">Work Hours :&nbsp;</span><span lang="EN-CA" style="font-size: 9pt; font-family: Arial, sans-serif;">12:00AM to 5:00PM (Eastern Time)&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span lang="EN-CA" style="font-size: 9pt; font-family: Verdana, sans-serif; color: rgb(31, 73, 125);">Skype :&nbsp;</span><span lang="EN-CA" style="font-size: 9pt; font-family: Arial, sans-serif;"><a href="skype:invixium_support?call"><span style="font-size: 11pt; font-family: Calibri, sans-serif;">invixium_support</span></a></span><span lang="EN-CA" style="font-size: 9pt; font-family: Verdana, sans-serif; color: rgb(31, 73, 125);">&nbsp;</span><span lang="EN-CA" style="font-family: Arial, sans-serif;"><o:p></o:p></span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span style="font-size: 10pt; font-family: Verdana, sans-serif; color: red; background: yellow;"><o:p>&nbsp;</o:p></span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span style="color: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 10.6667px;">{!Case.Thread_Id}</span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span style="font-size: 8pt; font-family: Arial, sans-serif; color: rgb(127, 127, 127);">This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</span></p></span></div>]]></td>
+</tr>
+</table>

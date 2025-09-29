@@ -1,0 +1,189 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="" lang="EN-US"><font style="" size="2" face="Arial, sans-serif">Dear Operations Team,</font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="" lang="EN-US"><font size="2" face="Arial, sans-serif"><br></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="" lang="EN-US"><font size="2" face="Arial, sans-serif">We are requesting <span class="uioutputtext" style=""><span data-aura-class="uiOutputText" data-aura-rendered-by="73781:0" style=""><span data-aura-rendered-by="73789:0" style="">for formal RMA Repair Process for&nbsp;<b>{!Case.custom_rma_number__c}</b><b style="color: rgb(0, 0, 0);">.</b></span></span></span><br>
+</font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="" lang="EN-US"><font size="2" face="Arial, sans-serif"><br></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="" lang="EN-US"><font size="2" face="Arial, sans-serif">---------------------------------------------------------------------------------------------------------------<b><br></b></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="" lang="EN-US"><font size="2" face="Arial, sans-serif"><b><br></b></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="" lang="EN-US"><font size="2" face="Arial, sans-serif"><b>RMA Device Details: <br></b></font></span></p><ul style=""><li style="color: rgb(0, 0, 0); font-family: arial;"><font size="2" face="Arial, sans-serif" style=""><span lang="EN-US" style=""><b style="">Device:</b>&nbsp;{!Case.custom_device_family__c}&nbsp;&nbsp;{!Case.custom_device_type__c}</span></font></li><li style="color: rgb(0, 0, 0); font-family: arial;"><font size="2" face="Arial, sans-serif"><span lang="EN-US"><b>Company Name:</b>&nbsp;{!Account.Name}</span></font></li><li style="color: rgb(0, 0, 0); font-family: arial;"><font size="2" face="Arial, sans-serif"><span lang="EN-US"><b>Customer:</b>&nbsp;<o:p></o:p></span>{!Contact.FirstName}&nbsp;&nbsp;{!Contact.LastName}</font></li><li style="color: rgb(0, 0, 0); font-family: arial;"><font size="2" face="Arial, sans-serif" style=""><b style="color: rgb(0, 0, 0); font-family: arial;">Number of Devices:&nbsp;</b>{!RMA_Device_Detail__c.of_Devices__c}</font></li><li style=""><font size="2" face="Arial, sans-serif" style="color: rgb(0, 0, 0); font-family: arial;"><span lang="EN-US"><b>Serial Number:</b>&nbsp;</span></font><font face="Arial, sans-serif" size="2">{!RMA_Device_Detail__c.Device_Serial_Number__c}</font></li><li style=""><font size="2" face="Arial, sans-serif" style="color: rgb(0, 0, 0); font-family: arial;"><span lang="EN-US"><b>MAC Address:</b>&nbsp;</span></font><font face="Arial, sans-serif" size="2">{!RMA_Device_Detail__c.MAC_Address__c}</font></li><li style="color: rgb(0, 0, 0); font-family: arial;"><font size="2" face="Arial, sans-serif"><span style="" lang="EN-US"><b>Complain:</b>
+{!Case.Hardware_Device_Category__c}</span></font></li><li style="color: rgb(0, 0, 0); font-family: arial;"><font size="2" face="Arial, sans-serif"><span lang="EN-US"><b>Device Received Date:</b>&nbsp;{!Case.custom_rma_device_received_date__c}</span></font></li><li style=""><font size="2" face="Arial, sans-serif" style="color: rgb(0, 0, 0); font-family: arial;"><span style="" lang="EN-US"><b>Warranty Status:</b>&nbsp;</span></font><font face="Arial, sans-serif" size="2">{!RMA_Device_Detail__c.Warranty_Status__c}</font></li><li style="color: rgb(0, 0, 0); font-family: arial;"><font size="2" face="Arial, sans-serif"><b>Firmware Version:</b>&nbsp;{!Case.custom_firmware_version__c}</font></li><li style="color: rgb(0, 0, 0); font-family: arial;"><font size="2" face="Arial, sans-serif"><span style="" lang="EN-US"><u2:p style=""><b>Actual Ship
+Out Date of Device:</b>&nbsp;{!Case.Device_Ship_Date__c}</u2:p></span></font></li><li style="color: rgb(0, 0, 0); font-family: arial;"><font style="color: rgb(0, 0, 0);" size="2" face="Arial, sans-serif"><span style="" lang="EN-US"><u2:p style=""><b>Targeted Repair Date:</b>&nbsp;</u2:p></span></font><font color="#FF0000"><u><b><font size="2" face="Arial, sans-serif">{!Case.Estimated_Repair_Date__c}</font></b></u></font></li><li style="color: rgb(0, 0, 0); font-family: arial;"><font style="color: rgb(0, 0, 0);" size="2" face="Arial, sans-serif"><b>Instructions from Engineering:</b>&nbsp;</font><font size="2" face="Arial, sans-serif" style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {!Case.Instruction_to_Operations__c}</font></li></ul><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial, sans-serif">--------------------------------------------------------------------------------------------------------------<br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial, sans-serif">Below is the list of accessories received with device(s):<br></font></div><font style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;" size="2" face="Arial, sans-serif"><o:p></o:p></font><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><u2:p><span lang="EN-US"><font size="2" face="Arial, sans-serif">&nbsp;<o:p></o:p></font></span></u2:p></p>
+
+<table class="MsoNormalTable" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;" cellspacing="0" cellpadding="0" border="1">
+ <tbody><tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: center;"><b><font size="2" face="Arial, sans-serif" color="#3366ff">Items&nbsp;</font></b></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: center;"><font size="2" face="Arial, sans-serif" color="#3366ff"><b>Quantity<u2:p></u2:p><o:p></o:p></b></font></p>
+  </td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: center;"><font size="2" face="Arial, sans-serif"><b><font color="#3366ff">Notes</font></b><u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Device<span style="white-space:pre">							</span><u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><span style="white-space:pre">					</span></font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;<span style="white-space:pre">				</span></u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Backplate<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Backplate Screw<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Metal Mounting Plate<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Metal Mounting Plate Screw<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Dolphins<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Mounting Screws<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Snubber Diode<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Torx <u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Dummy Back Cover<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">EGND Wire<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Device Box Accessories<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif">Device Box<u2:p></u2:p><o:p></o:p></font></p>
+  </td>
+  <td style="text-align: left; padding: 0cm;">
+  <font size="2" face="Arial, sans-serif"><br>
+  </font></td>
+  <td style="padding:0cm 0cm 0cm 0cm">
+  <p style="text-align: left;"><font size="2" face="Arial, sans-serif"><u2:p>&nbsp;</u2:p><o:p></o:p></font></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="color:white;mso-color-alt:windowtext;mso-ansi-language:
+EN-US" lang="EN-US"><font size="2" face="Arial, sans-serif">&nbsp;</font></span></p>
+
+<span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;" lang="EN-US"><font style="" size="2" face="Arial, sans-serif"><u2:p style=""><font style=""><u2:p></u2:p></font><div style=""><span style="" lang="EN-US"><u2:p style=""><font style=""><b><u>Device Condition:</u></b>&nbsp;&nbsp;</font></u2:p></span></div><font style="">&nbsp;</font><br>
+</u2:p><font style="">We will transfer the unit(s) to OPS as soon as you accept the request. Please make sure to get it done on or before targeted repair date. <br></font></font></span><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial, sans-serif"><br></font><div style="font-family: arial; font-size: 12pt;"><span style="color: rgb(0, 0, 0);" lang="EN-US"><p class="MsoNormal" style="font-family: arial; font-size: 12pt; text-align: justify;"><span data-aura-rendered-by="283:7887;a" style="box-sizing: border-box; text-align: start; background-color: rgb(255, 255, 255); font-family: Arial; font-size: 10pt;">Best Regards,<br style="box-sizing: border-box;" clear="none"><br style="box-sizing: border-box;" clear="none"><span style="color: rgb(255, 102, 0); box-sizing: border-box; font-size: 11pt;">Invixium Technical Services Team</span></span><br data-aura-rendered-by="283:7887;a" style="box-sizing: border-box; color: rgb(62, 62, 60); font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-size: 13px; text-align: start; background-color: rgb(255, 255, 255);" clear="none"><span style="color: rgb(62, 62, 60); font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-size: 13px; text-align: start; background-color: rgb(255, 255, 255);">&nbsp;</span></p><table data-aura-rendered-by="283:7887;a" style="color: rgb(62, 62, 60); font-family: Arial; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px; width: 455.333px; background-color: rgb(255, 255, 255);" border="0"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box;"><td colspan="1" rowspan="1" style="box-sizing: border-box; padding: 0px;"><span style="box-sizing: border-box;"><font size="1" face="Arial, sans-serif">Contact US:</font></span></td><td colspan="1" rowspan="1" style="box-sizing: border-box; padding: 0px; width: 185pt;"><span style="box-sizing: border-box;"><span style="box-sizing: border-box; color: rgb(51, 51, 153);"><font size="1" face="Arial, sans-serif">+1 844 INVIXIUM (468 4948)</font></span></span></td><td colspan="1" rowspan="1" style="box-sizing: border-box; padding: 0px;"><span style="box-sizing: border-box;"><font size="1" face="Arial, sans-serif">Email:</font></span></td><td colspan="1" rowspan="1" style="box-sizing: border-box; padding: 0px;"><span style="box-sizing: border-box;"><span style="box-sizing: border-box; color: rgb(51, 51, 153);"><font size="1" face="Arial, sans-serif">support@invixium.com</font></span></span></td></tr><tr style="box-sizing: border-box;"><td colspan="1" rowspan="1" style="box-sizing: border-box; padding: 0px;"><span style="box-sizing: border-box;"><font size="1" face="Arial, sans-serif">Work Hours:</font></span></td><td colspan="1" rowspan="1" style="box-sizing: border-box; padding: 0px; width: 185pt;"><span style="box-sizing: border-box;"><span style="box-sizing: border-box; color: rgb(51, 51, 153);"><font size="1" face="Arial, sans-serif">12:00AM to 5:00PM (Eastern Time)</font></span></span></td><td colspan="1" rowspan="1" style="box-sizing: border-box; padding: 0px;"><span style="box-sizing: border-box;"><font size="1" face="Arial, sans-serif">Skype:</font></span></td><td colspan="1" rowspan="1" style="box-sizing: border-box; padding: 0px;"><span style="box-sizing: border-box;"><span style="box-sizing: border-box; color: rgb(51, 51, 153);"><font size="1" face="Arial, sans-serif">invixium_support</font></span></span></td></tr></tbody></table><p class="MsoNormal" style="text-align: justify;"><font style="" size="1" face="Arial, sans-serif"><br data-aura-rendered-by="283:7887;a" style="box-sizing: border-box; color: rgb(62, 62, 60); text-align: start; background-color: rgb(255, 255, 255);" clear="none"><span data-aura-rendered-by="283:7887;a" style="box-sizing: border-box; color: rgb(62, 62, 60); text-align: start; background-color: rgb(255, 255, 255);"><span style="box-sizing: border-box; color: rgb(127, 127, 127);">This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</span></span></font></p><p class="MsoNormal" style="text-align: justify;"><font size="1" face="Arial, sans-serif"><span data-aura-rendered-by="283:7887;a" style="box-sizing: border-box; color: rgb(62, 62, 60); text-align: start; background-color: rgb(255, 255, 255);"><span style="box-sizing: border-box; color: rgb(127, 127, 127);"><br></span></span></font></p><p class="MsoNormal"><span style="color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);"><font size="1" face="Arial, sans-serif">{!Case.Thread_Id}</font></span></p><p class="MsoNormal" style="font-size: 12pt;"><br style="font-family: arial; background-color: rgb(255, 255, 255);"></p>
+<!--[if !supportLineBreakNewLine]--><br>
+<!--[endif]--></span></div></div>]]></td>
+</tr>
+</table>

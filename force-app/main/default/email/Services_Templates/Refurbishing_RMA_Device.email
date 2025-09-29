@@ -1,0 +1,37 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><span lang="EN-US" style=""><font face="Arial, sans-serif"><span style="font-size: 10pt;">Dear </span><span style="font-size: 13.3333px;">{!Contact.FirstName}</span><span style="font-size: 10pt;">,<o:p></o:p></span></font></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;">This email is in reference to RMA Number
+– <b>{!Case.custom_rma_number__c}</b>.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;">Kindly note that your device(s) have
+been in our possession since <b>{!Case.custom_rma_device_received_date__c}</b>. We would like to be able
+to make the necessary adjustments at no charge to you, but unfortunately your
+device(s) have been deemed Out of Warranty based on our thorough analysis. <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;">If you would like us to repair the
+device(s) for you, there will be a charge of <b>[AMOUNT FOR REPAIRS]</b> plus all
+applicable taxes. We will guarantee the repair will be completed within <b>7 days</b>, after which we will return the device(s) back to you </span><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;">(<font color="#ff0000">Note: additional shipping charges may apply</font>).<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;">We strongly request that your payment be
+completed within the next 5 business days, so that we can proceed with the
+repair effort. If we do not receive your payment within this period, the
+device(s) will be discarded or remain in our possession. In addition, all of
+your pending cases and associated RMA’s will be marked as CLOSED.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 10pt; font-family: Arial, sans-serif;">Your prompt action is greatly
+appreciated.<font color="#2f5597"><o:p></o:p></font></span></p>]]></td>
+</tr>
+</table>

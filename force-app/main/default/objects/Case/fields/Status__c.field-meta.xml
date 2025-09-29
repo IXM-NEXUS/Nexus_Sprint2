@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(CASE(  Status , 
+&apos;New&apos;,&apos;/resource/icons/desk-new-v2.png&apos;, 
+&apos;Open&apos;,&apos;/resource/icons/desk-open-v2.png&apos;, 
+&apos;Pending&apos;,&apos;/resource/icons/desk-pending-v2.png&apos;,
+&apos;Resolved&apos;,&apos;/resource/icons/desk-resolved-v2.png&apos;, 
+&apos;Closed&apos;,&apos;/resource/icons/desk-resolved-v2.png&apos;,&apos;&apos;),&apos;&apos;,22,22) + &apos; &apos; + Text(Status)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

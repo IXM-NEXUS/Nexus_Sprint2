@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template requiring RMA details from customer</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>RMA Details</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+In response to the trailing email we are initiating an RMA. RMA number - {!Case.custom_rma_number__c}. We request you to mention this RMA number in all future communications.
+
+
+Kindly share the following details within 5 business days:
+
+
+Contact Name:
+Company Name:
+Company Address:
+Phone Number:
+Device(s) Serial Number(s):
+No. of Boxes:
+Each box dimensions:
+Weight of each box:
+
+
+
+Please note that if the details are not shared within 5 business days, we will mark the ticket as resolved. It will take up to 7 business days to inspect, repair &amp; ship the device back to you. Please note that if we do not receive the device within 30 days of the initiation date, the RMA ticket will be marked as resolved.
+
+
+Invixium will be responsible only for the shipping charges for the RMA. All other charges, if any, will be expensed to you.
+
+
+You will be notified via email for any update(s) to the RMA status.
+
+
+Thank you for your patience.
+
+
+Best Regards,
+
+
+
+Invixium Technical Services Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+
+
+
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

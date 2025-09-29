@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Provided activation ID is already used so kindly fill the details again which will generate new Activation ID.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Generate New Activation ID</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+The Activation ID provided by you is already in use on another system. Please go to the following link, fill in the required details, and click Submit:
+
+
+
+https://www.invixium.com/download-ixm-web/
+
+
+
+Please note that each Activation ID is uniquely linked to the IXM WEB instance provided that is activated upon filling the details. To get a new Activation ID, please use a different email address.
+
+
+You will then receive an email from Invixium Support. Follow the steps in the email to activate IXM WEB.
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Confirmation that device is shipped.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Device Shipped Confirmation</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+This email is in reference to RMA Number - {!Case.custom_rma_number__c}
+
+
+We have shipped your device(s). Please find the shipping details below:
+
+
+&lt;Shipping Details and Tracking Number&gt;
+
+
+The RMA Report for the device(s) is attached with this email.
+
+
+For further queries, feel free to contact us at support@invixium.com or +1 844 INVIXIUM (468 4948).
+
+
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

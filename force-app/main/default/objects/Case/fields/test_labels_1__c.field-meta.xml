@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>test_labels_1__c</fullName>
+    <label>Old Labels</label>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1.2.20.0</fullName>
+                <default>false</default>
+                <label>1.2.20.0</label>
+            </value>
+            <value>
+                <fullName>1.3.0.0</fullName>
+                <default>false</default>
+                <label>1.3.0.0</label>
+            </value>
+            <value>
+                <fullName>1.3.0.1</fullName>
+                <default>false</default>
+                <label>1.3.0.1</label>
+            </value>
+            <value>
+                <fullName>1.4.0.0</fullName>
+                <default>false</default>
+                <label>1.4.0.0</label>
+            </value>
+            <value>
+                <fullName>1.4.9.0</fullName>
+                <default>false</default>
+                <label>1.4.9.0</label>
+            </value>
+            <value>
+                <fullName>30 Days RMA Pending</fullName>
+                <default>false</default>
+                <label>30 Days RMA Pending</label>
+            </value>
+            <value>
+                <fullName>8 Days Pending</fullName>
+                <default>false</default>
+                <label>8 Days Pending</label>
+            </value>
+            <value>
+                <fullName>8 hours</fullName>
+                <default>false</default>
+                <label>8 hours</label>
+            </value>
+            <value>
+                <fullName>Control4 Driver v109</fullName>
+                <default>false</default>
+                <label>Control4 Driver v109</label>
+            </value>
+            <value>
+                <fullName>Control4 Driver v115</fullName>
+                <default>false</default>
+                <label>Control4 Driver v115</label>
+            </value>
+            <value>
+                <fullName>CSCM-Pending</fullName>
+                <default>false</default>
+                <label>CSCM-Pending</label>
+            </value>
+            <value>
+                <fullName>Engineering Pending</fullName>
+                <default>false</default>
+                <label>Engineering Pending</label>
+            </value>
+            <value>
+                <fullName>Escalated</fullName>
+                <default>false</default>
+                <label>Escalated</label>
+            </value>
+            <value>
+                <fullName>License_Key</fullName>
+                <default>false</default>
+                <label>License_Key</label>
+            </value>
+            <value>
+                <fullName>License_Request</fullName>
+                <default>false</default>
+                <label>License_Request</label>
+            </value>
+            <value>
+                <fullName>Logs</fullName>
+                <default>false</default>
+                <label>Logs</label>
+            </value>
+            <value>
+                <fullName>Negative Feedback</fullName>
+                <default>false</default>
+                <label>Negative Feedback</label>
+            </value>
+            <value>
+                <fullName>Other Department Dependency</fullName>
+                <default>false</default>
+                <label>Other Department Dependency</label>
+            </value>
+            <value>
+                <fullName>Other Department Dependency Completed</fullName>
+                <default>false</default>
+                <label>Other Department Dependency Completed</label>
+            </value>
+            <value>
+                <fullName>Out of Office Sent</fullName>
+                <default>false</default>
+                <label>Out of Office Sent</label>
+            </value>
+            <value>
+                <fullName>RMA_Approval</fullName>
+                <default>false</default>
+                <label>RMA_Approval</label>
+            </value>
+            <value>
+                <fullName>RMA_Cancel</fullName>
+                <default>false</default>
+                <label>RMA_Cancel</label>
+            </value>
+            <value>
+                <fullName>RMA_Completed</fullName>
+                <default>false</default>
+                <label>RMA_Completed</label>
+            </value>
+            <value>
+                <fullName>RMA_Initiated</fullName>
+                <default>false</default>
+                <label>RMA_Initiated</label>
+            </value>
+            <value>
+                <fullName>RMA_Pending</fullName>
+                <default>false</default>
+                <label>RMA_Pending</label>
+            </value>
+            <value>
+                <fullName>Sample Macros</fullName>
+                <default>false</default>
+                <label>Sample Macros</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>survey_sent</fullName>
+                <default>false</default>
+                <label>survey_sent</label>
+            </value>
+            <value>
+                <fullName>Translate_Request_Sent</fullName>
+                <default>false</default>
+                <label>Translate_Request_Sent</label>
+            </value>
+            <value>
+                <fullName>Trial_Key</fullName>
+                <default>false</default>
+                <label>Trial_Key</label>
+            </value>
+            <value>
+                <fullName>Control4 Driver v120</fullName>
+                <default>false</default>
+                <label>Control4 Driver v120</label>
+            </value>
+            <value>
+                <fullName>Pending_Reminder_Final</fullName>
+                <default>false</default>
+                <label>Pending_Reminder_Final</label>
+            </value>
+            <value>
+                <fullName>No Fault Found</fullName>
+                <default>false</default>
+                <label>No Fault Found</label>
+            </value>
+            <value>
+                <fullName>10 Days Pending</fullName>
+                <default>false</default>
+                <label>10 Days Pending</label>
+            </value>
+            <value>
+                <fullName>2 Days Pending</fullName>
+                <default>false</default>
+                <label>2 Days Pending</label>
+            </value>
+            <value>
+                <fullName>3 Days Pending</fullName>
+                <default>false</default>
+                <label>3 Days Pending</label>
+            </value>
+            <value>
+                <fullName>4 Days Pending</fullName>
+                <default>false</default>
+                <label>4 Days Pending</label>
+            </value>
+            <value>
+                <fullName>5 Days Pending</fullName>
+                <default>false</default>
+                <label>5 Days Pending</label>
+            </value>
+            <value>
+                <fullName>1 Day Pending</fullName>
+                <default>false</default>
+                <label>1 Day Pending</label>
+            </value>
+            <value>
+                <fullName>6 Days Pending</fullName>
+                <default>false</default>
+                <label>6 Days Pending</label>
+            </value>
+            <value>
+                <fullName>7 Days Pending</fullName>
+                <default>false</default>
+                <label>7 Days Pending</label>
+            </value>
+            <value>
+                <fullName>9 Days Pending</fullName>
+                <default>false</default>
+                <label>9 Days Pending</label>
+            </value>
+            <value>
+                <fullName>9 Hours</fullName>
+                <default>false</default>
+                <label>9 Hours</label>
+            </value>
+            <value>
+                <fullName>Abandoned Chats</fullName>
+                <default>false</default>
+                <label>Abandoned Chats</label>
+            </value>
+            <value>
+                <fullName>Auto_resolved</fullName>
+                <default>false</default>
+                <label>Auto_resolved</label>
+            </value>
+            <value>
+                <fullName>Call_Reminder_Sent</fullName>
+                <default>false</default>
+                <label>Call_Reminder_Sent</label>
+            </value>
+            <value>
+                <fullName>Case_Open_Reminder_Sent</fullName>
+                <default>false</default>
+                <label>Case_Open_Reminder_Sent</label>
+            </value>
+            <value>
+                <fullName>Csat</fullName>
+                <default>false</default>
+                <label>Csat</label>
+            </value>
+            <value>
+                <fullName>RMA</fullName>
+                <default>false</default>
+                <label>RMA</label>
+            </value>
+            <value>
+                <fullName>CSCM_Completed</fullName>
+                <default>false</default>
+                <label>CSCM_Completed</label>
+            </value>
+            <value>
+                <fullName>Engineering Completed</fullName>
+                <default>false</default>
+                <label>Engineering Completed</label>
+            </value>
+            <value>
+                <fullName>RMA_Approval_Sent</fullName>
+                <default>false</default>
+                <label>RMA_Approval_Sent</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>Internal_Pending</fullName>
+                <default>false</default>
+                <label>Internal_Pending</label>
+            </value>
+            <value>
+                <fullName>License_Pending</fullName>
+                <default>false</default>
+                <label>License_Pending</label>
+            </value>
+            <value>
+                <fullName>More Info</fullName>
+                <default>false</default>
+                <label>More Info</label>
+            </value>
+            <value>
+                <fullName>Pending_Reminder_1</fullName>
+                <default>false</default>
+                <label>Pending_Reminder_1</label>
+            </value>
+            <value>
+                <fullName>Pending_Reminder_2</fullName>
+                <default>false</default>
+                <label>Pending_Reminder_2</label>
+            </value>
+            <value>
+                <fullName>Report_Request_Sent</fullName>
+                <default>false</default>
+                <label>Report_Request_Sent</label>
+            </value>
+            <value>
+                <fullName>RMA_Notification_Sent</fullName>
+                <default>false</default>
+                <label>RMA_Notification_Sent</label>
+            </value>
+            <value>
+                <fullName>Skype</fullName>
+                <default>false</default>
+                <label>Skype</label>
+            </value>
+            <value>
+                <fullName>Team Viewer</fullName>
+                <default>false</default>
+                <label>Team Viewer</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+            <value>
+                <fullName>Transguard</fullName>
+                <default>false</default>
+                <label>Transguard</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

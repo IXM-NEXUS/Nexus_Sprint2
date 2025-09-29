@@ -1,0 +1,223 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style=""><font face="Arial, sans-serif" style=""><b style="">Pre-requisites:</b><br style="mso-special-character:line-break">
+<!--[if !supportLineBreakNewLine]--><br style="mso-special-character:line-break">
+<!--[endif]--><span style="line-height: 107%;"><o:p></o:p></span></font></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: none;">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:.3in">
+  <td width="589" colspan="2" valign="top" style="width:441.9pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.3in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><b><font face="Arial, sans-serif">System Requirements<o:p></o:p></font></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">CPU Requirement<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">2.4 GHz Quad Core<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">RAM Requirement<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">8 GB RAM<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><o:p><font face="Arial, sans-serif">&nbsp;</font></o:p></p>
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">Hard Disk Requirement<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">50 GB Hard disk<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">Network Interface<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">TCP/IP, RS232,
+  RS485, Wi-Fi<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">WEB Server Requirement<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Microsoft IIS v10.0<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:6;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">Microsoft .Net Framework<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Version 4.8<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:7;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">Database<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">SQL Server 2014 or
+  higher<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:8;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">License<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Free. Annual
+  Maintenance Cost for updates and support. (2nd year onwards)<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:9;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">Operating Systems<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Windows 10
+  Professional Version<o:p></o:p></font></p>
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Windows 11
+  Professional Version<o:p></o:p></font></p>
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Windows Server 2016<o:p></o:p></font></p>
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Standard Windows
+  Server 2019<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:10;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">Supported Browsers<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Google Chrome TM
+  version 97.0 or later<o:p></o:p></font></p>
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Mozilla Firefox
+  version 96.0 or later<o:p></o:p></font></p>
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Microsoft Edge
+  version 102.0 or later<o:p></o:p></font></p>
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Apple Safari
+  version 14.1.2 or later (Mac OS only)<o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:11;mso-yfti-lastrow:yes;height:.5in">
+  <td width="205" style="width:153.9pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" align="center" style="margin-bottom:0in;text-align:center;
+  line-height:normal"><font face="Arial, sans-serif">Supported Devices<o:p></o:p></font></p>
+  </td>
+  <td width="384" style="width:4.0in;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:.5in">
+  <p class="MsoNormal" style="margin-bottom:0in;line-height:normal"><font face="Arial, sans-serif">Desktop, Notebook,
+  Smartphone, Tablet<o:p></o:p></font></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoListParagraph" style=""><o:p><font face="Arial, sans-serif">&nbsp;</font></o:p></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif">Please note the
+following requirements for the application update:<o:p></o:p></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><br></span></p><ul style="margin-top:0in" type="square">
+ <li class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif">Internet access to the server is
+     required for the update process.<o:p></o:p></span></li>
+ <li class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif">We may need access to the database
+     during the update; kindly grant permission in advance.<o:p></o:p></span></li>
+ <li class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif">CPU and RAM requirements may vary
+     based on the total number of devices and employees in IXM WEB.<o:p></o:p></span></li>
+</ul><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif">Additionally,
+please share the following details:<o:p></o:p></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><br></span></p><p data-start="0" data-end="66" class="">
+
+
+
+
+
+</p><ul style="margin-top:0in" type="square">
+ <li class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif">IXM WEB machine key (in text
+     format)<o:p></o:p></span></li>
+ <li class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif">Device list<o:p></o:p></span></li>
+ <li class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif">Total number of employees in IXM
+     WEB<o:p></o:p></span></li>
+</ul>
+
+<p class="MsoNormal" style=""><o:p><font face="Arial, sans-serif">&nbsp;</font></o:p><b style="font-family: Arial, sans-serif; font-size: 12pt;">Backup:</b></p><p class="MsoNormal" style=""><b style="font-family: Arial, sans-serif; font-size: 12pt;"><br></b></p>
+
+<ul style="margin-top: 0in;" type="square">
+ <li class="MsoNormal" style=""><font face="Arial, sans-serif">Take a database backup.<o:p></o:p></font></li>
+ <li class="MsoNormal" style=""><font face="Arial, sans-serif">Backup the IXM WEB folder located
+     at&nbsp;C:\Program Files (x86) \Invixium\.<o:p></o:p></font></li>
+ <li class="MsoNormal" style="">Please expect a minimum of 4–5 hours of downtime for firmware updates. Application updates will not impact ongoing operations.</li>
+</ul>]]></td>
+</tr>
+</table>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use this template for asking the details from client for sending ASC offer to them.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>ASC details from Client</name>
+    <style>freeForm</style>
+    <subject>Required Details for ASC offer.</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+To enable us to share the ASC offer, please let us know the following:
+
+1. Who are You (SI/Distributor/Channel Partner)?
+
+2. End-user name and location?
+
+3. Name of SI/Distributor from whom the system is brought?
+
+4. Total Number of devices:
+
+5. Types of devices.
+
+6. Serial Number of the Devices:
+
+7. IXM WEB Version:
+
+8. Machine Key from IXM WEB
+
+· Log in to IXM WEB -&gt; go to the admin menu -&gt;top-right corner.
+
+· Click on Admin Menu-&gt; About IXM WEB
+
+· You will find a Machine Key over there, copy that machine key, and provide it to us in text format (please do not provide these details in an image format).</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

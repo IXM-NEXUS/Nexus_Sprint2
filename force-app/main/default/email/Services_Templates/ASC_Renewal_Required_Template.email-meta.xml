@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ASC Renewal Required Email Template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>ASC Renewal Required</name>
+    <style>freeForm</style>
+    <subject>Re: {!Case.Subject}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Thank you for your request of IXM WEB 2.0, the latest software from Invixium!
+
+
+Based on your confirmation, your existing installation of IXM WEB is an older version and as such you are required to renew your Annual Support Contract (ASC). The annual fee for the Invixium ASC is $299 US, which includes post-sales support for the next 12 months via phone, email or Skype from the Invixium Technical Services team along with any future firmware or software updates from Invixium.
+
+
+Upon renewal of your ASC, we will require a two-step process to complete the upgrade to IXM WEB 2.0:
+
+
+Step 1: Download and install IXM WEB version 1.7.0.0
+
+
+Step 2: Download and install IXM WEB 2.0
+
+
+Please do not hesitate to reach out to us via email, phone +1844 INVIXIUM (468 4948) or Skype: invixium_support should you have any additional questions.
+
+
+
+Best Regards,
+
+
+Invixium Technical Services Team
+
+
+
+Contact US: +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.
+
+
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

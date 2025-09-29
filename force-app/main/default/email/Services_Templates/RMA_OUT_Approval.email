@@ -1,0 +1,135 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="trt0xe" style="margin-left: 0.5in; background: white;"></p><p class="trt0xe" style="margin-left:.5in;background:white"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white">Hi Shiraz,</span></p><p class="trt0xe" style="margin-left:.5in;background:white"><span style="color: rgb(41, 40, 39); font-family: Arial, sans-serif; font-size: 10pt;"><br></span></p><p class="trt0xe" style="margin-left:.5in;background:white"><span style="color: rgb(41, 40, 39); font-family: Arial, sans-serif; font-size: 10pt;">Case&nbsp;</span><b style="color: rgb(41, 40, 39); font-family: Arial, sans-serif; font-size: 10pt;">{!Case.CaseNumber}</b><span style="color: rgb(41, 40, 39); font-family: Arial, sans-serif; font-size: 10pt;">&nbsp;generated on &nbsp;</span><b style="color: rgb(41, 40, 39); font-family: Arial, sans-serif; font-size: 10pt;">{!Case.CreatedDate}</b><span style="color: rgb(41, 40, 39); font-family: Arial, sans-serif; font-size: 10pt;">&nbsp;needs
+to be processed for RMA return to the customer.</span></p><p class="trt0xe" style="margin-left:.5in;background:white"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white">
+<!--[if !supportLineBreakNewLine]--><br style="mso-special-character:line-break">
+<!--[endif]--><o:p></o:p></span></p>
+
+<p class="trt0xe" style="margin-top:0in;margin-right:0in;margin-bottom:3.0pt;
+margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo1;tab-stops:list .5in"><ul><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">RMA Number:&nbsp;</span></b><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white">{!Case.custom_rma_number__c}<o:p></o:p></span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Contact Name:</span></b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">&nbsp;</span><span style="font-size:
+10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;background:white">{!Contact.FirstName}&nbsp;&nbsp;{!Contact.LastName}<o:p></o:p></span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Company Name:</span></b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">&nbsp;</span><span style="font-size:
+10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;background:white">{!Account.Name}<o:p></o:p></span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Device Serial Number(s):</span></b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">&nbsp;{!RMA_Device_Detail__c.Device_Serial_Number__c}</span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Number of Device(s):&nbsp;</span></b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">{!RMA_Device_Detail__c.of_Devices__c}</span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Device Family:</span></b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">&nbsp;{!RMA_Device_Detail__c.Device_Family__c}</span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Device Type:</span></b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">&nbsp;{!RMA_Device_Detail__c.Device_Type__c}</span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Warranty Status:</span></b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">&nbsp;</span><span style="font-size:
+10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;background:white">{!RMA_Device_Detail__c.Warranty_Status__c}<o:p></o:p></span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Original SO Number</span></b><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white">:&nbsp;<o:p></o:p></span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white">RMA SO Number:</span></b></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">RMA Issued On:&nbsp;</span></b><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white">{!Case.custom_rma_initiate_date__c}<o:p></o:p></span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Device Received On:</span></b><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white"> {!Case.custom_rma_device_received_date__c}<o:p></o:p></span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Problem Reported by Customer:</span></b><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white">&nbsp;&nbsp;<o:p></o:p></span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Troubleshooting Engineer:</span></b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">&nbsp;</span></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Root Cause Analysis:</span></b></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Nature of Issue:</span></b></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Corrective Action:</span></b></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Payment Received:</span></b></li><li><span style="font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+mso-bidi-font-family:Wingdings;color:#292827"><span style="mso-list:Ignore">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;</span></span></span><b><span lang="EN-CA" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#292827;
+background:white;mso-ansi-language:EN-CA">Cost of Repair:</span></b></li></ul><!--[if !supportLists]--></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="trt0xe" style="margin-left:1.0in;mso-add-space:auto;text-indent:.25in;
+mso-list:l1 level2 lfo2;tab-stops:85.5pt"><!--[if !supportLists]--><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:#292827"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+color:#292827;background:white">Material Cost –&nbsp;<o:p></o:p></span></p>
+
+<p class="trt0xe" style="margin-left:1.0in;mso-add-space:auto;text-indent:.25in;
+mso-list:l1 level2 lfo2;tab-stops:85.5pt"><!--[if !supportLists]--><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:#292827"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+color:#292827;background:white">Labor&nbsp;Cost –&nbsp;<o:p></o:p></span></p>
+
+<p class="trt0xe" style="margin-left:1.0in;mso-add-space:auto;text-indent:.25in;
+mso-list:l1 level2 lfo2;tab-stops:85.5pt"><!--[if !supportLists]--><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:#292827"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+color:#292827;background:white">Shipping cost –<o:p></o:p></span></p>
+
+<p class="trt0xe" style="margin-left:1.0in;mso-add-space:auto;text-indent:.25in;
+mso-list:l1 level2 lfo2;tab-stops:85.5pt"><!--[if !supportLists]--><span style="font-size:10.0pt;font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:#292827"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+color:#292827;background:white">Received Purchase Order#:&nbsp;<o:p></o:p></span></p>
+
+<p class="trt0xe" style="margin-left:.5in"><span style="font-size:10.0pt;
+font-family:&quot;Arial&quot;,sans-serif;color:#292827;background:white"><o:p>&nbsp;</o:p></span></p>
+
+<p class="trt0xe" style="margin-left:.5in"><span style="font-size:10.0pt;
+font-family:&quot;Arial&quot;,sans-serif;color:#292827;background:white">Kindly provide
+your approval to ship out the RMA</span></p><p></p>]]></td>
+</tr>
+</table>

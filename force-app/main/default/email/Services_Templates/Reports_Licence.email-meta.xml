@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reports Licence</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Default_Letterhead</letterhead>
+    <name>Reports Licence</name>
+    <style>freeForm</style>
+    <subject>Thank you for purchasing IXM WEB Reports</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+We are delighted that you have decided to purchase IXM WEB Reports. We are confident that this module will help you track and improve the overall productivity and efficiency of your employees and organization.
+
+
+The key to activate your Reports License is given below:
+
+
+&lt;Enter License Key&gt;
+
+
+This key is valid for &lt;Enter number of days&gt; days only. We advise you to enter the key and get started immediately.
+
+
+Feel free to contact our Tech Support to understand all the features of this module. We urge you to explore the extensive benefits of Reports in order to derive maximum value out of it.
+
+
+Thank you for choosing Invixium!
+
+
+Enjoy the experience!
+
+
+Best Regards,
+
+Invixium Support Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+
+Work Hours : 12:00AM to 5:00PM (Eastern Time) Skype : invixium_support
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installation_Environment__c</fullName>
+    <description>This section generally used for the Recommendation section which we are having in the DAR format. For example we recommend customer to use proper power supply, ground cables etc. Do take input from either Repair Agent or Engineering Team.</description>
+    <inlineHelpText>For this we need to take inputs from Repair Agent, for Canada RMA Li and for India RMA Rohit or engineering team.</inlineHelpText>
+    <label>Installation Environment</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

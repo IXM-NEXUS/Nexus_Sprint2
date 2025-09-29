@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template that can be used to send to Shiraz for an RMA Return Approval</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>RMA Return Approval Template</name>
+    <style>freeForm</style>
+    <subject>Required RMA Return Approval - {!Case.custom_rma_number__c}</subject>
+    <textOnly>Hi Shiraz,
+
+Case {!Case.CaseNumber} generated on {!Case.CreatedDate} needs to be processed for RMA return to the customer.
+
+Contact Name: {!Case.Contact}
+Company Name: {!Account.Name}
+Device Serial Number:
+Device Family:
+Device Type:
+Warranty Status:
+Problem Statement:
+Detail description of a problem statement:
+Troubleshooting Steps:
+
+{!Case.Troubleshooting_Steps__c}
+
+Visual Inspection:
+
+{!Case.Summary_of_Analysis__c}
+
+Root Cause Analysis:
+
+{!Case.RMA_Conclusion__c}
+
+
+Corrective Action:
+
+Cost of Repair:
+ECO/ECN Applied: {!Case.ECO_ECN_Applied__c}
+ECO/ECN Applied on Date: {!Case.Date_of_ECO_ECN_Applied__c}
+Actual Ship Out Date of Device: {!Case.Device_Ship_Date__c}
+
+The number of  Products taken through RMA for :
+
+Please provide your approval at the earliest.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Num_WM__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>To get days of year in after completion of RMA</description>
+    <externalId>false</externalId>
+    <formula>(DATE(2019,12,31)  -  DATEVALUE(custom_rma_complete_date__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>To get days of year in after completion of RMA</inlineHelpText>
+    <label>Num_WM</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,62 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><div style="font-size: 14px;"><span style="font-family:Arial,Helvetica,sans-serif;">{{{Case.SuppliedCompany}}}{{{Case.ContactId}}}Hi Rohit,<br />
+<br />
+Following device, we have received in the India office under <span style="background:white">{{{Case.custom_rma_number__c}}}</span> Case# {{{Case.CaseNumber}}}, <span lang="EN-US">Please provide the RCCA&nbsp; details for the failure and repair as per the current production procedure.</span></span></div>
+
+<ul>
+	<li style="font-size: 14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Device Serial no:&nbsp; {{{Case.custom_device_serial_no__c}}}</span></span></span></li>
+	<li style="font-size: 14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">MAC Address:&nbsp; &nbsp;{{{Case.custom_mac_address__c}}}</span></span></span></li>
+	<li style="font-size: 14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Device:&nbsp; &nbsp;{{{Case.custom_device_family__c}}}&nbsp;&nbsp;{{{Case.custom_device_type__c}}}</span></span></span></li>
+	<li style="font-size: 14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">RMA Number:&nbsp; {{{Case.custom_rma_number__c}}}</span></span></span></li>
+	<li style="font-size: 14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Warranty Status:&nbsp;&nbsp;</span></span>{{{Case.custom_warranty_status__c}}}</span></li>
+	<li style="font-size: 14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Customer or dealer:&nbsp; {{{Case.SuppliedCompany}}}&nbsp; {{{Case.SuppliedName}}}</span></span></span></li>
+	<li style="font-size: 14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Customer reported Issue:&nbsp; {{{Case.Hardware_Device_Category__c}}}</span></span></span></li>
+	<li style="font-size: 14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Support identified:&nbsp; &nbsp;</span></span></span></li>
+</ul>
+
+<div style="font-size: 14px;"><br />
+<span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Attaching the initial inspection report.</span></span><br />
+<br />
+TS requires the following <span lang="EN-US">RCCA </span>details</span>
+
+<ul>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Defects Analysis:-</span></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Root cause Analysis details for this failure:-</span></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Repairing require:-</span></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">ECO/ECN applied:-</span></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Corrective action:-</span></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Preventing action in the customer environment:-</span></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Why Made:-</span></span></span></li>
+	<li><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="color:#222222">Why Missed:- </span></span></span></span></span></li>
+</ul>
+</div>
+<br />
+<b><span style="font-size:10.5pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:red">NOTE: We need to ship this device back to the customer within the next 7 business days. Let us know in advance if on the following RMA Day this device is not ready to put into burning.</span></span></span></b><br />
+&nbsp;
+<div style="text-indent:0px; -webkit-text-stroke-width:0px; text-align:left"><span><span style="font-family:Arial;font-size:10.0pt;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Best Regards,</span></span><br clear="none" />
+<br clear="none" />
+<span style="font-size:11.0pt;color:#FF6600;">Invixium Technical Services Team</span></span><br clear="none" />
+&nbsp; </span>
+
+<table border="0" style="font-size:6.0pt;">
+	
+		<tr>
+			<td colspan="1" rowspan="1"><span><span style="font-family:Arial;font-size:10.0pt;">Contact US:</span></span></td>
+			<td colspan="1" rowspan="1" style="width:185pt;"><span><span style="font-family:Arial;font-size:10.0pt;"><span style="color: #333399;">+1 844 INVIXIUM (468 4948)</span></span></span></td>
+			<td colspan="1" rowspan="1"><span><span style="font-family:Arial;font-size:10.0pt;">Email:</span></span></td>
+			<td colspan="1" rowspan="1"><span><span style="font-family:Arial;font-size:10.0pt;"><span style="color: #333399;"><a href="mailto:support@invixium.com">support@invixium.com</a></span></span></span></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1"><span><span style="font-family:Arial;font-size:10.0pt;">Work Hours:</span></span></td>
+			<td colspan="1" rowspan="1" style="width:185pt;"><span><span style="font-family:Arial;font-size:10.0pt;"><span style="color: #333399;">12:00AM to 5:00PM (Eastern Time)</span></span></span></td>
+			<td colspan="1" rowspan="1"><span><span style="font-family:Arial;font-size:10.0pt;">Skype</span></span></td>
+			<td colspan="1" rowspan="1"><span><span style="font-family:Arial;font-size:10.0pt;"><span style="color: #333399;">invixium_support</span></span></span></td>
+		</tr>
+	
+</table>
+<br clear="none" />
+<br clear="none" />
+<span><span style="font-family:Arial;font-size:10.0pt;"><span style="font-size:8.0pt;color:#7F7F7F;">This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.<br />
+{{{Case.Thread_Id}}}</span></span></span></div></body></html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used while sending the RMA devices to Customer for Logistics depatment</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Dispatch Instruction For RMA devices</name>
+    <style>formalLetter</style>
+    <subject>This template is used while sending the RMA devices to Customer for Logistics depatment</subject>
+    <textOnly>Hi
+
+This email is about RMA Number -
+
+Warranty Status of the Device -
+Device Serial Number -
+
+
+We need to ship the device to the following address, RMA Number – .
+
+Attaching the device&apos;s initial inspection reports for your reference.
+
+
+Shipping Address is as follows:
+
+
+Despatch To
+
+
+
+Contact Person:
+Mobile:
+
+Email:
+
+
+SO Number:</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

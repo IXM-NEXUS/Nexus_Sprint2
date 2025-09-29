@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Status__c</fullName>
+    <label>Lead Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contacted</fullName>
+                <default>false</default>
+                <label>Contacted</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Donkey</fullName>
+                <default>false</default>
+                <label>Donkey</label>
+            </value>
+            <value>
+                <fullName>MQL</fullName>
+                <default>false</default>
+                <label>MQL</label>
+            </value>
+            <value>
+                <fullName>SQL</fullName>
+                <default>false</default>
+                <label>SQL</label>
+            </value>
+            <value>
+                <fullName>Marketing Nurturable</fullName>
+                <default>false</default>
+                <label>Marketing Nurturable</label>
+            </value>
+            <value>
+                <fullName>Sales Nurturable</fullName>
+                <default>false</default>
+                <label>Sales Nurturable</label>
+            </value>
+            <value>
+                <fullName>Strategic Focus</fullName>
+                <default>false</default>
+                <label>Strategic Focus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

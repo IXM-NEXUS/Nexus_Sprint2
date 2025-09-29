@@ -1,0 +1,26 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" style="" size="2">Dear {!Contact.FirstName},<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">Your
+<b>&lt;No. of hours&gt;</b> hours of free Invixium developer support for <b>&lt;SDK
+Name&gt;</b> have been utilized. Further developer support hours may be purchased
+through your sales rep at a cost of <b>$&lt;amount&gt;/hr</b>.<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><span lang="EN-US" style="">General queries are always welcome through
+</span><span lang="EN-CA"><a href="mailto:support@invixium.com"><span lang="EN-US" style=""><b>support@invixium.com</b></span></a></span><span lang="EN-US" style=""> </span><span lang="EN-GB" style="">or <b>+1 844 INVIXIUM (468 4948)</b> or <b>invixium_support</b> Skype ID.</span><span lang="EN-US" style=""><o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><span lang="EN-GB" style="">&nbsp;</span><o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><span lang="EN-GB" style="">Enjoy the experience!</span><span lang="EN-GB" style=""><o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="font-family: arial; font-size: 12pt;"><span lang="EN-CA" style=""><font face="Arial, sans-serif" size="2">&nbsp;</font></span></p>
+
+<div style=""><span lang="EN-CA" style=""><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><span style="color: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 10.6667px;">{!Case.Thread_Id}</span></p><p class="MsoNormal" style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);"><br></p></span></div>]]></td>
+</tr>
+</table>

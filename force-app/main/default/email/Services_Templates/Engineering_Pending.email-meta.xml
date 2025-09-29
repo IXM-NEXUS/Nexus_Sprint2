@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Engineering Pending</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>IXM_Letterhead</letterhead>
+    <name>Engineering Pending</name>
+    <style>freeForm</style>
+    <subject>{!Case.Subject}</subject>
+    <textOnly>Dear Engineering Team Members,
+
+
+Ticket# {!Case.CaseNumber} generated on {!Case.CreatedDate} is pending for the Engineering input.
+
+Kindly look into this on high priority. Please refer to the email chain below for more details.
+
+{!Case.Email_Thread}
+
+Best Regards,
+
+Invixium Technical Services Team
+
+
+Contact US  : +1 844 INVIXIUM (468 4948) Email : support@invixium.com
+
+Work Hours : 12:00 AM to 5:00 PM (Eastern Time) Skype : invixium_support
+
+
+
+{!Case.Thread_Id}
+
+This email and any attachments may contain confidential and privileged information. If you have received this message in error, please notify us immediately and destroy the material in its entirety, whether electronic or hard copy. Also, please consider the environment before printing this email.
+
+
+
+{!Case.Email_Thread}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
