@@ -272,6 +272,17 @@
         <name>Queue</name>
     </types>
 
+    <types>
+       <members>	Admin	</members>
+<members>	Agent	</members>
+<members>	All_Users	</members>
+<members>	Canadian_User	</members>
+<members>	Indian_Users	</members>
+<members>	Sales_Cloud_User	</members>
+<members>	Service_Cloud_User	</members>
+        <name>Group</name>
+    </types>
+
 <types>
         <members>	Canada_Users_fields	</members>
 <members>	Desk_Migration	</members>
@@ -650,6 +661,115 @@
 <members>	Contract_Lightning_Records_Page	</members>
 <members>	RMA_Device_Detail_Record_Page	</members>
         <name>FlexiPage</name>
+    </types>
+
+     <types>
+        <members>	RMA_Device_Detail__c.INX_Layout	</members>
+<members>	Knowledge_kav__c.Service_System_Default	</members>
+        <name>CompactLayout</name>
+    </types>
+
+    <types>
+        <members>	Account-Service_Account Layout	</members>
+<members>	Contact-Service_Admin_Contact Layout	</members>
+<members>	Contact-Service_Contact Layout_V2	</members>
+<members>	Desk_Account_Migration__c-Service_Desk Account Migration Layout	</members>
+<members>	Desk_Article_Migration__c-Service_Desk Article Migration Layout	</members>
+<members>	Desk_Case_Migration__c-Service_Desk Case Migration Layout	</members>
+<members>	Desk_Contact_Migration__c-Service_Desk Contact Migration Layout	</members>
+<members>	Knowledge_kav__c-Service_Knowledge Layout	</members>
+<members>	RMA_Device_Detail__c-Service_RMA Device Detail Layout	</members>
+        <name>Layout</name>
+    </types>
+
+     <types>
+        <members>	Service Cloud Administrator	</members>
+<members>	Service Supervisor	</members>
+<members>	Technical Service Agent	</members>
+        <name>Profile</name>
+    </types>
+
+ <types>
+       <members>	HooversProfile	</members>
+<members>	YahooWeather	</members>
+<members>	SendGmail	</members>
+<members>	YahooMaps	</members>
+        <name>WebLink</name>
+    </types>
+
+ <types>
+        <members>IXM TS</members>
+        <name>QueueRoutingConfig</name>
+    </types>
+
+<types>
+        <members>	Account.Update_Account	</members>
+<members>	Case.Case_Comment	</members>
+<members>	Case.Change_Owner	</members>
+<members>	Case.CloseCase	</members>
+<members>	Case.CloseCaseLightning	</members>
+<members>	Case.LogACall	</members>
+<members>	Case.RMA_Details	</members>
+<members>	Case.Schedule_Appointment	</members>
+<members>	Case.SendEmail	</members>
+<members>	Case.Update_Case_Mass_Quick_Action	</members>
+<members>	Case.Update_Case_with_CSAT	</members>
+<members>	Contact.New_case </members>
+        <name>QuickAction</name>
+    </types>
+
+     <types>
+            <members>Case.Desk</members> <!-- Example: Including a specific Lead Business Process -->
+            <name>BusinessProcess</name>
+        </types>
+
+        <types>
+        <members>	Account.Sales_Cloud_User	</members>
+<members>	Account.Service_Cloud_User	</members>
+<members>	Case.Master	</members>
+<members>	Case.New_Case_Creation	</members>
+        <name>RecordType</name>
+    </types>
+
+    <types>
+        <members>	Customer	</members>
+<members>	Phone 	</members>
+<members>	Customer Portal	</members>
+<members>	Website	</members>
+<members>	WhatsApp	</members>
+<members>	Skype	</members>
+<members>	Manual	</members>
+<members>	1	</members>
+<members>	2	</members>
+<members>	3	</members>
+<members>	4	</members>
+<members>	5	</members>
+<members>	6	</members>
+<members>	7	</members>
+<members>	8	</members>
+<members>	9	</members>
+<members>	10	</members>
+<members>	RMA Completed	</members>
+        <name>StandardValueSet</name>
+    </types>
+
+ <types>
+        <members>	Access Systems	</members>
+<members>	Global Payment Terms	</members>
+<members>	Reseller Class	</members>
+<members>	Territory Picklist Values	</members>
+        <name>GlobalValueSet</name>
+    </types>
+
+
+ <types>
+        <members>Case_Notification__e</members> <!-- The API name of your Platform Event -->
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>Case.Feedback_Label_Email_Template</members> <!-- Replace 'Account' with your desired object's API name -->
+        <name>Workflow</name>
     </types>
     <version>64.0</version>
 </Package>
