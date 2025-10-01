@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RMA_Status__c</fullName>
+    <label>RMA Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initiated</fullName>
+                <default>false</default>
+                <label>Initiated</label>
+            </value>
+            <value>
+                <fullName>Device Received</fullName>
+                <default>false</default>
+                <label>Device Received</label>
+            </value>
+            <value>
+                <fullName>Under Reapir</fullName>
+                <default>false</default>
+                <label>Under Reapir</label>
+            </value>
+            <value>
+                <fullName>Replacement</fullName>
+                <default>false</default>
+                <label>Replacement</label>
+            </value>
+            <value>
+                <fullName>Under Burning</fullName>
+                <default>false</default>
+                <label>Under Burning</label>
+            </value>
+            <value>
+                <fullName>RMA Completed</fullName>
+                <default>false</default>
+                <label>RMA Completed</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>RMA On Hold</fullName>
+                <default>false</default>
+                <label>RMA On Hold</label>
+            </value>
+            <value>
+                <fullName>Refurbish</fullName>
+                <default>false</default>
+                <label>Refurbish</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

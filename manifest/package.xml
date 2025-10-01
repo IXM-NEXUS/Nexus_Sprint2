@@ -731,26 +731,13 @@
         <name>RecordType</name>
     </types>
 
-    <types>
-        <members>	Customer	</members>
-<members>	Phone 	</members>
-<members>	Customer Portal	</members>
-<members>	Website	</members>
-<members>	WhatsApp	</members>
-<members>	Skype	</members>
-<members>	Manual	</members>
-<members>	1	</members>
-<members>	2	</members>
-<members>	3	</members>
-<members>	4	</members>
-<members>	5	</members>
-<members>	6	</members>
-<members>	7	</members>
-<members>	8	</members>
-<members>	9	</members>
-<members>	10	</members>
-<members>	RMA Completed	</members>
-        <name>StandardValueSet</name>
+      <types>
+        <members>	Account.Type	</members>
+<members>	Case.Origin	</members>
+<members>	Case.Priority	</members>
+<members>	Case.RMA_Status__c	</members>
+
+        <name>CustomField</name>
     </types>
 
  <types>
