@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Avigilon</fullName>
+        <default>false</default>
+        <label>Avigilon</label>
+    </customValue>
+    <customValue>
+        <fullName>Brivo</fullName>
+        <default>false</default>
+        <label>Brivo</label>
+    </customValue>
+    <customValue>
+        <fullName>Feenics</fullName>
+        <default>false</default>
+        <label>Feenics</label>
+    </customValue>
+    <customValue>
+        <fullName>Galaxy</fullName>
+        <default>false</default>
+        <label>Galaxy</label>
+    </customValue>
+    <customValue>
+        <fullName>Gallagher</fullName>
+        <default>false</default>
+        <label>Gallagher</label>
+    </customValue>
+    <customValue>
+        <fullName>Genetec</fullName>
+        <default>false</default>
+        <label>Genetec</label>
+    </customValue>
+    <customValue>
+        <fullName>Honeywell - ProWatch</fullName>
+        <default>false</default>
+        <label>Honeywell - ProWatch</label>
+    </customValue>
+    <customValue>
+        <fullName>Honeywell - WinPak</fullName>
+        <default>false</default>
+        <label>Honeywell - WinPak</label>
+    </customValue>
+    <customValue>
+        <fullName>JCI - CCure</fullName>
+        <default>false</default>
+        <label>JCI - CCure</label>
+    </customValue>
+    <customValue>
+        <fullName>LenelS2 - NetBox</fullName>
+        <default>false</default>
+        <label>LenelS2 - NetBox</label>
+    </customValue>
+    <customValue>
+        <fullName>LenelS2 - OnGuard</fullName>
+        <default>false</default>
+        <label>LenelS2 - OnGuard</label>
+    </customValue>
+    <customValue>
+        <fullName>Nedap</fullName>
+        <default>false</default>
+        <label>Nedap</label>
+    </customValue>
+    <customValue>
+        <fullName>Open Options</fullName>
+        <default>false</default>
+        <label>Open Options</label>
+    </customValue>
+    <customValue>
+        <fullName>Paxton</fullName>
+        <default>false</default>
+        <label>Paxton</label>
+    </customValue>
+    <customValue>
+        <fullName>RS2</fullName>
+        <default>false</default>
+        <label>RS2</label>
+    </customValue>
+    <customValue>
+        <fullName>Schneider - Access Expert</fullName>
+        <default>false</default>
+        <label>Schneider - Access Expert</label>
+    </customValue>
+    <customValue>
+        <fullName>Schneider - Security Expert</fullName>
+        <default>false</default>
+        <label>Schneider - Security Expert</label>
+    </customValue>
+    <masterLabel>Access Systems</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

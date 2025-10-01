@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ACM</fullName>
+        <default>false</default>
+        <label>ACM</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant</fullName>
+        <default>false</default>
+        <label>Consultant</label>
+    </customValue>
+    <customValue>
+        <fullName>Dealer</fullName>
+        <default>false</default>
+        <label>Dealer</label>
+    </customValue>
+    <customValue>
+        <fullName>Distributor</fullName>
+        <default>false</default>
+        <label>Distributor</label>
+    </customValue>
+    <customValue>
+        <fullName>End User</fullName>
+        <default>false</default>
+        <label>End User</label>
+    </customValue>
+    <customValue>
+        <fullName>System Integrator</fullName>
+        <default>false</default>
+        <label>System Integrator</label>
+    </customValue>
+    <customValue>
+        <fullName>Value Added Reseller</fullName>
+        <default>false</default>
+        <label>Value Added Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>Sub-distributor</fullName>
+        <default>false</default>
+        <label>Sub-distributor</label>
+    </customValue>
+    <customValue>
+        <fullName>Installer</fullName>
+        <default>false</default>
+        <label>Installer</label>
+    </customValue>
+    <masterLabel>Reseller Class</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

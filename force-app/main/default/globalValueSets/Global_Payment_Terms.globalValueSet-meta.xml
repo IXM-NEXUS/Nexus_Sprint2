@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not Set</fullName>
+        <default>false</default>
+        <label>Not Set</label>
+    </customValue>
+    <customValue>
+        <fullName>100% Advance with PO</fullName>
+        <default>true</default>
+        <label>100% Advance with PO</label>
+    </customValue>
+    <customValue>
+        <fullName>LC</fullName>
+        <default>false</default>
+        <label>LC</label>
+    </customValue>
+    <customValue>
+        <fullName>N15</fullName>
+        <default>false</default>
+        <label>N15</label>
+    </customValue>
+    <customValue>
+        <fullName>N30</fullName>
+        <default>false</default>
+        <label>N30</label>
+    </customValue>
+    <customValue>
+        <fullName>N45</fullName>
+        <default>false</default>
+        <label>N45</label>
+    </customValue>
+    <customValue>
+        <fullName>N60</fullName>
+        <default>false</default>
+        <label>N60</label>
+    </customValue>
+    <customValue>
+        <fullName>N90</fullName>
+        <default>false</default>
+        <label>N90</label>
+    </customValue>
+    <customValue>
+        <fullName>50/50</fullName>
+        <default>false</default>
+        <label>50/50</label>
+    </customValue>
+    <customValue>
+        <fullName>1% 10 N30</fullName>
+        <default>false</default>
+        <label>1% 10 N30</label>
+    </customValue>
+    <customValue>
+        <fullName>10%-40%-50%</fullName>
+        <default>false</default>
+        <label>10%-40%-50%</label>
+    </customValue>
+    <customValue>
+        <fullName>10%-90%</fullName>
+        <default>false</default>
+        <label>10%-90%</label>
+    </customValue>
+    <customValue>
+        <fullName>10/90</fullName>
+        <default>false</default>
+        <label>10/90</label>
+    </customValue>
+    <customValue>
+        <fullName>10DAYS</fullName>
+        <default>false</default>
+        <label>10DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>120 DAYS</fullName>
+        <default>false</default>
+        <label>120 DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>15DAYS</fullName>
+        <default>false</default>
+        <label>15DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>2% 10 N30</fullName>
+        <default>false</default>
+        <label>2% 10 N30</label>
+    </customValue>
+    <customValue>
+        <fullName>20% / 80%</fullName>
+        <default>false</default>
+        <label>20% / 80%</label>
+    </customValue>
+    <customValue>
+        <fullName>20/20/60</fullName>
+        <default>false</default>
+        <label>20/20/60</label>
+    </customValue>
+    <customValue>
+        <fullName>21 DAYS</fullName>
+        <default>false</default>
+        <label>21 DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>25% 75%</fullName>
+        <default>false</default>
+        <label>25% 75%</label>
+    </customValue>
+    <customValue>
+        <fullName>25%/75%</fullName>
+        <default>false</default>
+        <label>25%/75%</label>
+    </customValue>
+    <customValue>
+        <fullName>25%/75%N30</fullName>
+        <default>false</default>
+        <label>25%/75%N30</label>
+    </customValue>
+    <customValue>
+        <fullName>30%-30%-40%</fullName>
+        <default>false</default>
+        <label>30%-30%-40%</label>
+    </customValue>
+    <customValue>
+        <fullName>30%70%</fullName>
+        <default>false</default>
+        <label>30%70%</label>
+    </customValue>
+    <customValue>
+        <fullName>30/70</fullName>
+        <default>false</default>
+        <label>30/70</label>
+    </customValue>
+    <customValue>
+        <fullName>30DAYS</fullName>
+        <default>false</default>
+        <label>30DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>30DAYS, 10% HB</fullName>
+        <default>false</default>
+        <label>30DAYS, 10% HB</label>
+    </customValue>
+    <customValue>
+        <fullName>40%30%30%</fullName>
+        <default>false</default>
+        <label>40%30%30%</label>
+    </customValue>
+    <customValue>
+        <fullName>40%-60%</fullName>
+        <default>false</default>
+        <label>40%-60%</label>
+    </customValue>
+    <customValue>
+        <fullName>40-60</fullName>
+        <default>false</default>
+        <label>40-60</label>
+    </customValue>
+    <customValue>
+        <fullName>45DAYS</fullName>
+        <default>false</default>
+        <label>45DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>50% 25% 25%</fullName>
+        <default>false</default>
+        <label>50% 25% 25%</label>
+    </customValue>
+    <customValue>
+        <fullName>50% 45%</fullName>
+        <default>false</default>
+        <label>50% 45%</label>
+    </customValue>
+    <customValue>
+        <fullName>50% 50%</fullName>
+        <default>false</default>
+        <label>50% 50%</label>
+    </customValue>
+    <customValue>
+        <fullName>50% 50% NET 30</fullName>
+        <default>false</default>
+        <label>50% 50% NET 30</label>
+    </customValue>
+    <customValue>
+        <fullName>50%/50%</fullName>
+        <default>false</default>
+        <label>50%/50%</label>
+    </customValue>
+    <customValue>
+        <fullName>50%-50%</fullName>
+        <default>false</default>
+        <label>50%-50%</label>
+    </customValue>
+    <customValue>
+        <fullName>60%-40%</fullName>
+        <default>false</default>
+        <label>60%-40%</label>
+    </customValue>
+    <customValue>
+        <fullName>60DAYS</fullName>
+        <default>false</default>
+        <label>60DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>70% - 30%</fullName>
+        <default>false</default>
+        <label>70% - 30%</label>
+    </customValue>
+    <customValue>
+        <fullName>90DAYS</fullName>
+        <default>false</default>
+        <label>90DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>CAD</fullName>
+        <default>false</default>
+        <label>CAD</label>
+    </customValue>
+    <customValue>
+        <fullName>CUSTOM</fullName>
+        <default>false</default>
+        <label>CUSTOM</label>
+    </customValue>
+    <customValue>
+        <fullName>IMMEDIATE</fullName>
+        <default>false</default>
+        <label>IMMEDIATE</label>
+    </customValue>
+    <customValue>
+        <fullName>INTERNAL</fullName>
+        <default>false</default>
+        <label>INTERNAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LC-45</fullName>
+        <default>false</default>
+        <label>LC-45</label>
+    </customValue>
+    <customValue>
+        <fullName>LC-SIGHT</fullName>
+        <default>false</default>
+        <label>LC-SIGHT</label>
+    </customValue>
+    <customValue>
+        <fullName>N60+10</fullName>
+        <default>false</default>
+        <label>N60+10</label>
+    </customValue>
+    <customValue>
+        <fullName>NET 120 DAYS</fullName>
+        <default>false</default>
+        <label>NET 120 DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>NET 180 DAYS</fullName>
+        <default>false</default>
+        <label>NET 180 DAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>Net0</fullName>
+        <default>false</default>
+        <label>Net0</label>
+    </customValue>
+    <customValue>
+        <fullName>PHASE COMPLETION</fullName>
+        <default>false</default>
+        <label>PHASE COMPLETION</label>
+    </customValue>
+    <customValue>
+        <fullName>PRE</fullName>
+        <default>false</default>
+        <label>PRE</label>
+    </customValue>
+    <customValue>
+        <fullName>PREPAY 30/20/50</fullName>
+        <default>false</default>
+        <label>PREPAY 30/20/50</label>
+    </customValue>
+    <customValue>
+        <fullName>TBD</fullName>
+        <default>false</default>
+        <label>TBD</label>
+    </customValue>
+    <customValue>
+        <fullName>NET 50</fullName>
+        <default>false</default>
+        <label>NET 50</label>
+    </customValue>
+    <customValue>
+        <fullName>PP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PP</label>
+    </customValue>
+    <masterLabel>Global Payment Terms</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

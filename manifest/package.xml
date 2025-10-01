@@ -754,10 +754,10 @@
     </types>
 
  <types>
-        <members>	Access Systems	</members>
-<members>	Global Payment Terms	</members>
-<members>	Reseller Class	</members>
-<members>	Territory Picklist Values	</members>
+      <members>	Territory_Picklist_Values	</members>
+<members>	Reseller_Class	</members>
+<members>	Access_Systems	</members>
+<members>	Global_Payment_Terms	</members>
         <name>GlobalValueSet</name>
     </types>
 
